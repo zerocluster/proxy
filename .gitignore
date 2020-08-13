@@ -1,0 +1,6 @@
+# common
+/data/
+/wiki/
+
+# node
+/node_modules/

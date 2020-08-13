@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# curl -fsSLO https://bitbucket.org/softvisio/proxy/raw/master/contrib/proxy && chmod +x proxy
+
+set -e
+
+SCRIPT_DIR="$(cd -P -- "$(dirname -- "$0")" && pwd -P)"
+
+export TAG=latest
+export NAME=proxy
+export DOCKER_NAMESPACE=softvisio
+export SERVICE=1
+export CONTAINER_NAME=
+
+# docker container restart policy, https://docs.docker.com/config/containers/start-containers-automatically/
+export RESTART=unless-stopped
+
+# seconds to wait for stop before killing container, https://docs.docker.com/engine/reference/commandline/stop/#options
+export KILL_TIMEOUT=600
+
+export DOCKER_CONTAINER_ARGS=" \
+    --net=host \
+    --shm-size=1g \
+"
+
+(source <(curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/docker.sh) "$@")
