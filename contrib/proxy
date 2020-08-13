@@ -19,6 +19,7 @@ export RESTART=unless-stopped
 export KILL_TIMEOUT=600
 
 export DOCKER_CONTAINER_ARGS=" \
+    -v $SCRIPT_DIR:/var/local/dist/data \
     --net=host \
     --shm-size=1g \
 "
