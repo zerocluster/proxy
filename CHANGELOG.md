@@ -1,3 +1,8 @@
+## 0.5.0 (2020-08-15)
+
+-   deps updated
+-   proxy server authentication
+
 ## 0.4.0 (2020-08-15)
 
 -   deps updated
