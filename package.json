@@ -6,7 +6,7 @@
         "lint": "softvisio-cli lint"
     },
     "dependencies": {
-        "@softvisio/core": ">=0.48.2"
+        "@softvisio/core": ">=0.48.3"
     },
     "lint": [
         "*.*",
