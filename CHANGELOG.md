@@ -1,3 +1,7 @@
+## 0.3.0 (2020-08-15)
+
+-   deps updated
+
 ## 0.2.2 (2020-08-14)
 
 -   sigterm handler
