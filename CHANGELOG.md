@@ -1,3 +1,7 @@
+## 0.7.0 (2020-08-31)
+
+-   persistent, sessionTimeout settings added
+
 ## 0.6.4 (2020-08-31)
 
 -   debug log removed
