@@ -1,3 +1,8 @@
+## 0.6.4 (2020-08-31)
+
+-   debug log removed
+-   deps updated
+
 ## 0.6.3 (2020-08-31)
 
 -   deps updated
