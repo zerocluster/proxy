@@ -1,3 +1,7 @@
+## 0.7.1 (2020-08-31)
+
+-   typo
+
 ## 0.7.0 (2020-08-31)
 
 -   persistent, sessionTimeout settings added
