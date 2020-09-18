@@ -1,2 +1,4 @@
-name: proxy
-namespace: registry.myworkforce.com/proxy
+registry: softvisio/proxy
+
+mirrors:
+  - registry.myworkforce.com/proxy/proxy
