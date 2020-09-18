@@ -1,3 +1,8 @@
+## 0.7.3 (2020-09-18)
+
+-   deps updated
+-   docker linked
+
 ## 0.7.2 (2020-09-05)
 
 -   deps updated
