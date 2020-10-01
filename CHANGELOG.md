@@ -1,3 +1,8 @@
+## 0.9.0 (2020-10-01)
+
+-   deps updated
+-   docker --init
+
 ## 0.8.0 (2020-09-18)
 
 -   docker mirrors added
