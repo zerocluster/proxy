@@ -1,4 +1,3 @@
-registry: softvisio/proxy
-
-mirrors:
+registry:
+  - softvisio/proxy
   - registry.myworkforce.com/proxy/proxy
