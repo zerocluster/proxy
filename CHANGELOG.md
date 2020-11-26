@@ -1,3 +1,10 @@
+## 0.10.0 (2020-11-26)
+
+-   deps updated
+-   docker mirrors updated
+-   subnets refactored
+-   docker tags updated
+
 ## 0.9.0 (2020-10-01)
 
 -   deps updated
