@@ -6,7 +6,8 @@
         "lint": "softvisio-cli lint"
     },
     "dependencies": {
-        "@softvisio/core": ">=0.92.0"
+        "@softvisio/core": ">=0.92.0",
+        "geolite2-redist": ">=1.0.7"
     },
     "lint": [
         "*.*",
