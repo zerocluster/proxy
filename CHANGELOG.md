@@ -1,3 +1,8 @@
+## 0.10.2 (2020-11-28)
+
+-   deps updated
+-   rotation fixed
+
 ## 0.10.1 (2020-11-26)
 
 -   deps updated
