@@ -5,7 +5,7 @@ RUN \
     curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/env-build-node.sh | /bin/bash -s -- setup \
     \
     # install deps
-    pushd .. \
+    && pushd .. \
     && npm i --unsafe --only=prod \
     && popd \
     \
