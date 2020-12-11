@@ -1,3 +1,7 @@
+## 0.11.0 (2020-12-11)
+
+-   local proxy added
+
 ## 0.10.2 (2020-11-28)
 
 -   deps updated
