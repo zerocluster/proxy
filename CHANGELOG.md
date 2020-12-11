@@ -1,3 +1,7 @@
+## 0.11.1 (2020-12-11)
+
+-   dockerfile fixed
+
 ## 0.11.0 (2020-12-11)
 
 -   local proxy added
