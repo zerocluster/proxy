@@ -7,7 +7,7 @@
     },
     "dependencies": {
         "@softvisio/core": ">=0.104.0",
-        "@softvisio/maxmind": "bitbucket:softvisio/softvisio-maxmind#latest"
+        "@softvisio/maxmind": ">=0.4.0"
     },
     "lint": [
         "*.*",
