@@ -1,3 +1,7 @@
+## 0.12.0 (2020-12-13)
+
+-   deps updated
+
 ## 0.11.2 (2020-12-11)
 
 -   dockerfile fixed
