@@ -1,3 +1,8 @@
 registry:
   - softvisio/proxy
   - registry.myworkforce.com/proxy/proxy
+
+auto_tags:
+  - master
+  - devel
+  - latest
