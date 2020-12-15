@@ -6,8 +6,8 @@
         "lint": "softvisio-cli lint"
     },
     "dependencies": {
-        "@softvisio/core": ">=0.106.0",
-        "@softvisio/maxmind": ">=0.4.0"
+        "@softvisio/core": ">=0.107.0",
+        "@softvisio/maxmind": ">=1.0.0"
     },
     "lint": [
         "*.*",
