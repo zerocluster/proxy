@@ -7,7 +7,7 @@
     },
     "dependencies": {
         "@softvisio/core": ">=0.107.1",
-        "@softvisio/maxmind": ">=1.1.0"
+        "@softvisio/maxmind": ">=1.1.2"
     },
     "lint": [
         "*.*",
