@@ -6,7 +6,7 @@ RUN \
     \
     # install deps
     && pushd .. \
-    && npm i --unsafe --only=prod \
+    && npm i --no-fund --omit=dev \
     && popd \
     \
     # cleanup node build environment
