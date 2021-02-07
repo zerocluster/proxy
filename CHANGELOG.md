@@ -1,3 +1,10 @@
+## 0.15.0 (2021-02-07)
+
+### Raw commits log
+
+-   deps updated;
+-   proxy refactored;
+
 ## 0.14.1 (2021-01-31)
 
 -   deps updated
