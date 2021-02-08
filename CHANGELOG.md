@@ -1,3 +1,10 @@
+## 0.15.1 (2021-02-08)
+
+### Raw commits log
+
+-   server auth updated;
+-   deps updated;
+
 ## 0.15.0 (2021-02-07)
 
 ### Raw commits log
