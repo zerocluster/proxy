@@ -25,4 +25,4 @@ export DOCKER_CONTAINER_ARGS=" \
     --shm-size=1g \
 "
 
-(source <(curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/docker.sh) "$@")
+(source <(curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/docker-wrapper.sh) "$@")
