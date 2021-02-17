@@ -1,3 +1,10 @@
+## 1.0.0-alpha.0 (2021-02-17)
+
+### Raw commits log
+
+-   deps updated;
+-   use docker-wrapper script;
+
 ## 0.15.1 (2021-02-08)
 
 ### Raw commits log
