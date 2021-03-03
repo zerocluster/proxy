@@ -20,6 +20,7 @@ export KILL_TIMEOUT=600
 
 export DOCKER_CONTAINER_ARGS=" \
     -v $SCRIPT_DIR:/var/local/dist/data \
+    -v share:/var/lib/share \
     --net=host \
     --init \
     --shm-size=1g \
