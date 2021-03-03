@@ -1,3 +1,9 @@
+## 1.0.1 (2021-03-03)
+
+### Raw commits log
+
+-   docker share path added;
+
 ## 1.0.0 (2021-03-03)
 
 ### Raw commits log
