@@ -1,3 +1,9 @@
+## 1.0.0 (2021-03-03)
+
+### Raw commits log
+
+-   deps updated;
+
 ## 1.0.0-alpha.0 (2021-02-17)
 
 ### Raw commits log
