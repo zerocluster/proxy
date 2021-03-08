@@ -1,3 +1,10 @@
+## 1.1.4 (2021-03-08)
+
+### Raw commits log
+
+-   deps updated;
+-   docker-compose.yaml shebang added;
+
 ## 1.1.3 (2021-03-08)
 
 ### Raw commits log
