@@ -2,6 +2,7 @@ version: "3.9"
 
 # NOTE deploy
 # docker stack deploy --compose-file docker-compose.yaml proxy
+# docker node update --label-add proxy=true <NODE-NAME>
 
 x-build:
   default_tag: latest
