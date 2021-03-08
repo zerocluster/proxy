@@ -1,3 +1,9 @@
+## 1.1.1 (2021-03-08)
+
+### Raw commits log
+
+-   MAXMIND_SKIP_DOWNLOAD;
+
 ## 1.1.0 (2021-03-08)
 
 ### Raw commits log
