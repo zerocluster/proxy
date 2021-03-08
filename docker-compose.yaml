@@ -1,0 +1,51 @@
+version: "3.9"
+
+# NOTE deploy
+# docker stack deploy --compose-file docker-compose.yaml nginx
+
+x-build:
+  default_tag: latest
+  # auto_tags: [main, devel, latest]
+  # tags_mapping: { main: latest }
+
+networks:
+  private: { external: true }
+
+volumes:
+  maxmind: { external: true }
+  nginx:
+
+services:
+  nginx:
+    image: softvisio/nginx
+    hostname: nginx
+
+    deploy:
+      replicas: 1
+      placement:
+        max_replicas_per_node: 1
+        constraints:
+          - "node.role == manager"
+          - "node.labels.nginx == true"
+
+    environment:
+      SERVER_NAME_LABEL: nginx-server-name
+
+    networks: [private]
+
+    ports:
+      - { published: 80, target: 80 }
+      - { published: 443, target: 443 }
+
+    volumes:
+      - { type: bind, source: /var/run/docker.sock, target: /var/run/docker.sock }
+      - { type: volume, source: nginx, target: /var/lib/nginx }
+      - { type: volume, source: maxmind, target: /var/lib/maxmind }
+
+    init: true
+    stop_grace_period: 5m
+    shm_size: 1g
+
+    build:
+      labels:
+        x-additional-image: registry.myworkforce.com/nginx/nginx
