@@ -1,3 +1,5 @@
+#!/usr/bin/env -S docker stack deploy proxy --compose-file
+
 version: "3.9"
 
 # NOTE deploy
