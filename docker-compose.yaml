@@ -34,10 +34,6 @@ services:
 
     networks: [host]
 
-    # ports:
-    #   - { published: 80, target: 80 }
-    #   - { published: 443, target: 443 }
-
     volumes:
       - { type: volume, source: maxmind, target: /var/lib/maxmind }
 
