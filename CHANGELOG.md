@@ -1,3 +1,10 @@
+## 1.1.0 (2021-03-08)
+
+### Raw commits log
+
+-   moved to compose file;
+-   deps updated;
+
 ## 1.0.1 (2021-03-03)
 
 ### Raw commits log
