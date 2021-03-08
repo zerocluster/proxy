@@ -1,3 +1,9 @@
+## 1.1.5 (2021-03-08)
+
+### Raw commits log
+
+-   maxmind install script removed;
+
 ## 1.1.4 (2021-03-08)
 
 ### Raw commits log
