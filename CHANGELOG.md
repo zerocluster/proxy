@@ -1,3 +1,9 @@
+## 1.1.8 (2021-03-09)
+
+### Raw commits log
+
+-   master branch renamed to main;
+
 ## 1.1.7 (2021-03-09)
 
 ### Raw commits log
