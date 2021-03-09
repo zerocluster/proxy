@@ -8,7 +8,7 @@ version: "3.9"
 
 x-build:
   default_tag: latest
-  # auto_tags: [main, devel, latest]
+  # auto_tags: [main, latest]
   # tags_mapping: { main: latest }
 
 configs:
