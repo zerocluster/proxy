@@ -1,3 +1,9 @@
+## 1.1.9 (2021-03-10)
+
+### Raw commits log
+
+-   docker-compose.yaml renamed to docker-stack.yaml;
+
 ## 1.1.8 (2021-03-09)
 
 ### Raw commits log
