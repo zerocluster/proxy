@@ -1,9 +1,9 @@
-#!/usr/bin/env -S docker stack deploy proxy -c
+#!/usr/bin/env -S docker stack deploy --with-registry-auth proxy -c
 
 version: "3.9"
 
 # NOTE deploy
-# docker stack deploy -c docker-stack.yaml proxy
+# docker stack deploy --with-registry-auth -c docker-stack.yaml proxy
 # docker node update --label-add proxy=true <NODE-NAME>
 
 x-build:
