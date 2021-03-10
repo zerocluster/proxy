@@ -1,9 +1,9 @@
-#!/usr/bin/env -S docker stack deploy proxy --compose-file
+#!/usr/bin/env -S docker stack deploy proxy -c
 
 version: "3.9"
 
 # NOTE deploy
-# docker stack deploy --compose-file docker-compose.yaml proxy
+# docker stack deploy -c docker-stack.yaml proxy
 # docker node update --label-add proxy=true <NODE-NAME>
 
 x-build:
