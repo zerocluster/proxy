@@ -1,3 +1,9 @@
+## 1.1.12 (2021-03-12)
+
+### Raw commits log
+
+-   auth fixed;
+
 ## 1.1.11 (2021-03-12)
 
 ### Raw commits log
