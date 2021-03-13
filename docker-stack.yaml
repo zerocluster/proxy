@@ -6,20 +6,6 @@ version: "3.9"
 # docker stack deploy --with-registry-auth -c docker-stack.yaml proxy
 # docker node update --label-add proxy=true <NODE-NAME>
 
-x-build:
-  default_tag: latest
-  # auto_tags: [main, latest]
-  # tags_mapping: { main: latest }
-
-configs:
-  config.yaml: { file: data/config.yaml }
-
-networks:
-  host: { name: host, external: true }
-
-volumes:
-  maxmind: { external: true }
-
 services:
   proxy:
     image: softvisio/proxy
@@ -47,3 +33,17 @@ services:
     build:
       labels:
         x-additional-image: registry.myworkforce.com/proxy/proxy
+
+configs:
+  config.yaml: { file: data/config.yaml }
+
+networks:
+  host: { name: host, external: true }
+
+volumes:
+  maxmind: { external: true }
+
+x-build:
+  default_tag: latest
+  # auto_tags: [main, latest]
+  # tags_mapping: { main: latest }
