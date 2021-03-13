@@ -1,3 +1,9 @@
+## 1.1.14 (2021-03-13)
+
+### Raw commits log
+
+-   docker stack updated;
+
 ## 1.1.13 (2021-03-13)
 
 ### Raw commits log
