@@ -15,7 +15,7 @@ configs:
   config.yaml: { file: data/config.yaml }
 
 networks:
-  host: { external: { name: host } }
+  host: { name: host, external: true }
 
 volumes:
   maxmind: { external: true }
