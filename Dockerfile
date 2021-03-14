@@ -7,9 +7,7 @@ RUN \
     curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/env-build-node.sh | /bin/bash -s -- setup \
     \
     # install deps
-    && pushd .. \
     && npm i --no-fund --omit=dev \
-    && popd \
     \
     # cleanup node build environment
     && curl -fsSL https://bitbucket.org/softvisio/scripts/raw/master/env-build-node.sh | /bin/bash -s -- cleanup \

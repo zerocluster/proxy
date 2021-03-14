@@ -3,7 +3,7 @@
 const fs = require( "@softvisio/core/fs" );
 const App = require( "../lib" );
 
-var config = fs.config.read( "./config.yaml" );
+var config = fs.config.read( "./.env.local.yaml" );
 
 var app = new App( config );
 

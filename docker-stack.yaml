@@ -18,7 +18,7 @@ services:
           - "node.labels.proxy == true"
 
     configs:
-      - { source: config.yaml, target: /var/local/dist/data/config.yaml }
+      - { source: .env.local.yaml, target: /var/local/package/.env.local.yaml }
 
     networks: [host]
 
@@ -34,7 +34,7 @@ services:
         x-additional-image: registry.myworkforce.com/proxy/proxy
 
 configs:
-  config.yaml: { file: data/config.yaml }
+  .env.local.yaml: { file: .env.local.yaml }
 
 networks:
   host: { name: host, external: true }
