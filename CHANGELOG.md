@@ -1,3 +1,9 @@
+## 1.2.1 (2021-03-14)
+
+### Raw commits log
+
+-   contrib dir removed;
+
 ## 1.2.0 (2021-03-14)
 
 ### Raw commits log
