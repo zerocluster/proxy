@@ -9,7 +9,6 @@ version: "3.9"
 services:
   proxy:
     image: softvisio/proxy
-    hostname: proxy
 
     deploy:
       replicas: 1
