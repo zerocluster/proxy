@@ -20,7 +20,7 @@ services:
           - "node.labels.proxy == true"
 
     configs:
-      - { source: .env.local.yaml, target: /var/local/package/.env.local.yaml }
+      - { source: .config.local.yaml, target: /var/local/package/.config.local.yaml }
 
     networks: [host]
 
@@ -32,7 +32,7 @@ services:
       context: .
 
 configs:
-  .env.local.yaml: { file: .env.local.yaml }
+  .config.local.yaml: { file: .config.local.yaml }
 
 networks:
   host: { name: host, external: true }
