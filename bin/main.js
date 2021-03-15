@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-const fs = require( "@softvisio/core/fs" );
+const env = require( "@softvisio/core/utils/env" );
 const App = require( "../lib" );
 
-var config = fs.config.read( "./.env.local.yaml" );
+var config = env.read( "production" );
 
-var app = new App( config );
+var app = new App( config.config );
 
 app.run();
