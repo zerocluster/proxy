@@ -1,3 +1,9 @@
+## 1.3.1 (2021-03-15)
+
+### Raw commits log
+
+-   load config fixed;
+
 ## 1.3.0 (2021-03-15)
 
 ### Raw commits log
