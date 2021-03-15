@@ -29,8 +29,7 @@ services:
       - { type: volume, source: maxmind, target: /var/lib/maxmind }
 
     build:
-      labels:
-        x-additional-image: registry.myworkforce.com/proxy/proxy
+      context: .
 
 configs:
   .env.local.yaml: { file: .env.local.yaml }
@@ -43,5 +42,4 @@ volumes:
 
 x-build:
   default_tag: latest
-  # auto_tags: [main, latest]
-  # tags_mapping: { main: latest }
+  # autobuild_tags: [main, latest]
