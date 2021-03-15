@@ -9,6 +9,8 @@ version: "3.9"
 services:
   proxy:
     image: softvisio/proxy
+    init: true
+    stop_grace_period: 5m
 
     deploy:
       replicas: 1
@@ -23,11 +25,8 @@ services:
     networks: [host]
 
     volumes:
+      - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1024000000 } }
       - { type: volume, source: maxmind, target: /var/lib/maxmind }
-
-    init: true
-    stop_grace_period: 5m
-    shm_size: 1g
 
     build:
       labels:
