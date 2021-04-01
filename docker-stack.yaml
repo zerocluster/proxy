@@ -26,7 +26,7 @@ services:
 
     volumes:
       - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
-      - { type: volume, source: maxmind, target: /var/lib/maxmind }
+      - { type: volume, source: databses, target: /var/lib/databses }
 
     build:
       context: .
@@ -38,7 +38,7 @@ networks:
   host: { name: host, external: true }
 
 volumes:
-  maxmind: { external: true }
+  databses: { external: true }
 
 x-build:
   default_tag: latest
