@@ -1,3 +1,11 @@
+## 1.4.0 (2021-04-09)
+
+### Raw commits log
+
+-   zones access refactored;
+-   deps updated;
+-   npmrc fund false;
+
 ## 1.3.9 (2021-04-01)
 
 ### Raw commits log
