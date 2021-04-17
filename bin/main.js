@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-const env = require( "@softvisio/core/utils/env" );
-const App = require( "../lib" );
+import env from "@softvisio/core/utils/env";
+import App from "#index";
 
 var config = env.read( "production" );
 
-var app = new App( config.config );
+const app = new App( config.config );
 
 app.run();

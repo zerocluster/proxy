@@ -2,6 +2,10 @@
     "name": "@applications/proxy",
     "version": "1.4.0",
     "private": true,
+    "type": "module",
+    "imports": {
+        "#index": "./lib/index.js"
+    },
     "scripts": {
         "lint": "softvisio-cli lint"
     },
