@@ -1,3 +1,11 @@
+## 1.4.1 (2021-04-21)
+
+### Raw commits log
+
+-   deps updated;
+-   default zone;
+-   proxy server username parser updated;
+
 ## 1.4.0 (2021-04-09)
 
 ### Raw commits log
