@@ -1,3 +1,10 @@
+## 1.4.2 (2021-04-22)
+
+### Raw commits log
+
+-   proxy server close on auth error;
+-   proxy server integration updated;
+
 ## 1.4.1 (2021-04-21)
 
 ### Raw commits log
