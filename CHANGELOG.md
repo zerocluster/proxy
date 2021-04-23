@@ -1,3 +1,10 @@
+## 1.4.3 (2021-04-23)
+
+### Raw commits log
+
+-   deps updated;
+-   zone proxy options added;
+
 ## 1.4.2 (2021-04-22)
 
 ### Raw commits log
