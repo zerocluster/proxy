@@ -1,3 +1,11 @@
+## 1.4.5 (2021-04-27)
+
+### Raw commits log
+
+-   deps updated;
+-   proxy api refactored;
+-   always create user session;
+
 ## 1.4.4 (2021-04-26)
 
 ### Raw commits log
