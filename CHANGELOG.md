@@ -1,3 +1,9 @@
+## 1.4.6 (2021-05-02)
+
+### Raw commits log
+
+-   deps updated;
+
 ## 1.4.5 (2021-04-27)
 
 ### Raw commits log
