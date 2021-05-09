@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import env from "@softvisio/core/utils/env";
+import env from "#core/utils/env";
 import App from "#index";
 
 var config = env.read( "production" );
