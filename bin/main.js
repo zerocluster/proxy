@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-import env from "#core/utils/env";
+import env from "#core/env";
 import App from "#index";
 
-var config = env.read( "production" );
+var config = env.readConfigs( "production" );
 
 const app = new App( config.config );
 
