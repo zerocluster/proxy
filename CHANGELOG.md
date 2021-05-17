@@ -1,3 +1,14 @@
+## 1.5.0 (2021-05-17)
+
+### Raw commits log
+
+-   stream read http headers fixed;
+-   deps updated;
+-   env mode accessors added;
+-   env read -> readConfig;
+-   imports updated;
+-   ip refactored;
+
 ## 1.4.6 (2021-05-02)
 
 ### Raw commits log
