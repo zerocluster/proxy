@@ -7,9 +7,6 @@
         "#core/*": "@softvisio/core/*",
         "#index": "./lib/index.js"
     },
-    "scripts": {
-        "lint": "softvisio-cli lint"
-    },
     "dependencies": {
         "@softvisio/core": "^3.0.0"
     },
