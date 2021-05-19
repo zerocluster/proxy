@@ -1,3 +1,11 @@
+## 1.5.1 (2021-05-19)
+
+### Raw commits log
+
+-   deps updated;
+-   subnets moved to ip/;
+-   lint script removed;
+
 ## 1.5.0 (2021-05-17)
 
 ### Raw commits log
