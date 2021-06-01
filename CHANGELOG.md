@@ -1,3 +1,10 @@
+## 1.5.2 (2021-06-01)
+
+### Raw commits log
+
+-   lint config removed;
+-   package-lock removed;
+
 ## 1.5.1 (2021-05-19)
 
 ### Raw commits log
