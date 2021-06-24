@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.6.0 (2021-06-24)
+
+Changed:
+
+-   deps updated;
+-   changelog updated;
+-   moved to github;
+
 ### 1.5.2 (2021-06-01)
 
 Changed:
