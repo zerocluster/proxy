@@ -8,6 +8,6 @@
         "#index": "./lib/index.js"
     },
     "dependencies": {
-        "@softvisio/core": "^3.0.0"
+        "@softvisio/core": "^4.0.0"
     }
 }
