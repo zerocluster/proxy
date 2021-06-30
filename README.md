@@ -1,6 +1,6 @@
-> :information_source: Please, see the full project documentation here: [https://softvisio.github.io/proxy/](https://softvisio.github.io/proxy/).
+<!-- !!! DO NOT EDIT, THIS FILE IS GENERATED AUTOMATICALLY !!!  -->
 
-> :warning: Do not edit. This file is generated automatocally by `@softvisio/cli`.
+> :information_source: Please, see the full project documentation here: [https://softvisio.github.io/proxy/](https://softvisio.github.io/proxy/).
 
 # Introduction
 
