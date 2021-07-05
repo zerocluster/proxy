@@ -26,7 +26,6 @@ services:
 
     volumes:
       - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
-      - { type: volume, source: databases, target: /var/lib/databases }
 
     build:
       context: .
@@ -36,9 +35,6 @@ configs:
 
 networks:
   host: { name: host, external: true }
-
-volumes:
-  databases: { external: true }
 
 x-build:
   default_tag: latest
