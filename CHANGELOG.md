@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.6.1 (2021-07-05)
+
+Fixed:
+
+-   proxy class renamed
+
 ### 1.6.0 (2021-06-24)
 
 Changed:
