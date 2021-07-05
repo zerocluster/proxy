@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.6.2 (2021-07-05)
+
+Fixed:
+
+-   docker stack databases volume removed
+
 ### 1.6.1 (2021-07-05)
 
 Fixed:
