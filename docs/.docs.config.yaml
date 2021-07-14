@@ -1,7 +1,1 @@
 logo: false
-
-aliases:
-  /api: https://raw.githubusercontent.com/softvisio/core/main/docs/api.md
-
-api: [lib/api]
-rpc: [lib/rpc]
