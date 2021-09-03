@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.6.5 (2021-09-03)
+
+Fixes:
+
+-   fix: dockerfle rpm deps disabled
+
 ### 1.6.4 (2021-08-30)
 
 Changed:
