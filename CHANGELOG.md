@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.6.9 (2021-09-08)
+
+Fixes:
+
+-   fix(proxy): softvisio params separator
+
 ### 1.6.8 (2021-09-08)
 
 No notable changes since the previous release.
