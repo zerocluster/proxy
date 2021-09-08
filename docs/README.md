@@ -1,13 +1,13 @@
 # Introduction
 
-Proxy service.
+Proxy service for docker swarm.
 
 ## Install
 
 Use `docker-stack.yaml` and `.config.yaml` files, provided in this repository.
 
 ```shell
-# mark node for proxy deployment
+# mark node for deployment
 docker node update --label-add proxy=true <NODE-NAME>
 
 # deploy
