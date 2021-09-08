@@ -27,7 +27,7 @@ Proxy connect url: `http://username:password@hostname:port/`, where:
 -   `hostname` <string\> Hostname.
 -   `port` <integer\> Port.
 
-`Username` parameter can contain additional options, which can be added to the username using comma separator:
+`Username` parameter can contain additional options, which can be added using comma separator:
 
 -   `zone` <string\> Zone name.
 -   `country` <string\> Country ISO2 code.
@@ -42,6 +42,6 @@ Proxy connect url: `http://username:password@hostname:port/`, where:
 Examples:
 
 ```text
-http://username,zone_test,country_us,session_1234567890,rotateRequests_10,rotateTimeout_10000,rotateRandom=true:password@test.com:54930/
+http://username,zone_test,country_us,session_1234567890,rotateRequests_10,rotateTimeout_10000,rotateRandom_true:password@test.com:54930/
 
 ```
