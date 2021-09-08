@@ -22,34 +22,26 @@ docker stack deploy --with-registry-auth -c docker-stack.yaml proxy
 
 Proxy connect url: `http://username:password@hostname:port/`, where:
 
--   `username` <string\>
+-   `username` <string\> User name.
 -   `password` <string\> Your passwod.
 -   `hostname` <string\> Hostname.
 -   `port` <integer\> Port.
 
-`Username` parameter can contain additional options, which can be added using comma separator:
+`Username` can contain additional optional parameters, which are added using comma separator. Parameter value is separated from parameter name using `"-"` character. Boolean parameters can have `"true"`, `"false"` or no value. If boolean parameter is present but value is not defined it will be set to the `"true"`. Available parameters:
 
 -   `zone` <string\> Zone name.
 -   `country` <string\> Country ISO2 code.
--   `state` <string> US state code.
+-   `state` <string\> US state code.
 -   `city` <string\> City name.
 -   `resolve` <boolean\> If `true`, target hosts will be resolved on the proxy server.
 -   `session` <string\> Session id.
 -   `rotateRequests` <integer\> Rotate proxy after specified number of the requests.
 -   `rotateTimeout` <integer\> Rotate proxy after specified timeout in milliseconds.
--   `rotateRandom` <boolean\> Rotate proxies in the random ordere.
+-   `rotateRandom` <boolean\> Rotate proxies in the random order.
 
-Boolean parameters can have `"true"`, `"false"` or no value. If boolean parameteer is present but value is not defined it will be set to the `"true"`.
-
-```text
-...,parameter,...       # value of parameter is "true"
-...,parameter-true,...  # "true"
-...,parameter-false,... # "false"
-```
-
-Proxy connect url examples:
+Proxy connect url example:
 
 ```text
-http://username,zone-test,country-us,resolve,session-1234567890,rotateRequests-10,rotateTimeout-10000,rotateRandom-false:password@test.com:54930/
+http://username,zone-test,country-us,resolve,rotateTimeout-10000,rotateRandom-false:password@test.com:54930/
 
 ```
