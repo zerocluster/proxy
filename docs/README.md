@@ -35,7 +35,15 @@ Proxy connect url: `http://username:password@hostname:port/`, where:
 -   `rotateTimeout` <integer\> Rotate proxy after specified timeout in milliseconds.
 -   `rotateRandom` <boolean\> Rotate proxies in the random ordere.
 
-Examples:
+Boolean parameters can have `"true"`, `"false"` or no value. If boolean parameteer is present but value is not defined it will be set to the `"true"`.
+
+```text
+...,parameter,...       # value of parameter is "true"
+...,parameter_true,...  # "true"
+...,parameter_false,... # "false"
+```
+
+Proxy connect url examples:
 
 ```text
 http://username,zone_test,country_us,resolve,session_1234567890,rotateRequests_10,rotateTimeout_10000,rotateRandom_false:password@test.com:54930/
