@@ -43,13 +43,13 @@ Boolean parameters can have `"true"`, `"false"` or no value. If boolean paramete
 
 ```text
 ...,parameter,...       # value of parameter is "true"
-...,parameter_true,...  # "true"
-...,parameter_false,... # "false"
+...,parameter-true,...  # "true"
+...,parameter-false,... # "false"
 ```
 
 Proxy connect url examples:
 
 ```text
-http://username,zone_test,country_us,resolve,session_1234567890,rotateRequests_10,rotateTimeout_10000,rotateRandom_false:password@test.com:54930/
+http://username,zone-test,country-us,resolve,session-1234567890,rotateRequests-10,rotateTimeout-10000,rotateRandom-false:password@test.com:54930/
 
 ```
