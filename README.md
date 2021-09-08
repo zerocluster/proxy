@@ -33,7 +33,7 @@ Proxy connect url: `http://username:password@hostname:port/`, where:
 -   `country` <string\> Country ISO2 code.
 -   `state` <string> US state code.
 -   `city` <string\> City name.
--   `resolve-local` <boolean\> If present, target hosts will be resolved on the proxy server.
+-   `resolve` <boolean\> If `true`, target hosts will be resolved on the proxy server.
 -   `session` <string\> Session id.
 -   `rotateRequests` <integer\> Rotate proxy after specified number of the requests.
 -   `rotateTimeout` <integer\> Rotate proxy after specified timeout in milliseconds.
@@ -42,6 +42,6 @@ Proxy connect url: `http://username:password@hostname:port/`, where:
 Examples:
 
 ```text
-http://username,zone_test,country_us,session_1234567890,rotateRequests_10,rotateTimeout_10000,rotateRandom_true:password@test.com:54930/
+http://username,zone_test,country_us,resolve,session_1234567890,rotateRequests_10,rotateTimeout_10000,rotateRandom_false:password@test.com:54930/
 
 ```
