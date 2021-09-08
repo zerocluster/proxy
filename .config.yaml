@@ -1,0 +1,33 @@
+config:
+  listen: 0.0.0.0
+  port: 51930 # possible to define ports range: 1000-2000
+
+  default_zone: ~
+
+  zones:
+    direct:
+      proxy: ~
+
+    tor:
+      proxy: tor://
+
+    hola:
+      proxy: hola://?country=us
+
+  whitelist:
+    - 185.149.68.0/22
+
+  users:
+    "":
+      enabled: true
+      password: ""
+      whitelist: true # true - inherit, false - don't use, array - user - specific whitelist
+      default_zone: true # true - inherit, false - do not use, string - name of default zone for this user
+      zones: ~ # false - no restrictions, array - zones, allowed for this user
+
+    test:
+      enabled: true
+      password:
+      whitelist: ~
+      default_zone: true
+      zones: ~
