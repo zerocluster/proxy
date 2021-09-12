@@ -2,10 +2,27 @@
     "name": "@applications/proxy",
     "version": "1.6.10",
     "private": true,
+    "description": "Proxy service",
+    "keywords": [
+        "softvisio",
+        "proxy"
+    ],
+    "homepage": "https://github.com/softvisio/proxy",
+    "bugs": {
+        "url": "https://github.com/softvisio/proxy/issues",
+        "email": "zdm@softvisio.net"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/softvisio/proxy.git"
+    },
+    "license": "ISC",
+    "author": "zdm <zdm@softvisio.net>",
     "type": "module",
     "imports": {
         "#core/*": "@softvisio/core/*",
-        "#index": "./lib/index.js"
+        "#index": "./lib/index.js",
+        "#lib/*": "./lib/*.js"
     },
     "dependencies": {
         "@softvisio/core": "^4.0.0"
