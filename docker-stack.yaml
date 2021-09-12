@@ -38,4 +38,4 @@ networks:
 
 x-build:
   default_tag: latest
-  # autobuild_tags: [main, latest, next]
+  auto_tags: [main, latest, next]
