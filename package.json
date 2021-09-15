@@ -1,5 +1,5 @@
 {
-    "name": "@applications/proxy",
+    "name": "services/proxy",
     "version": "1.6.12",
     "private": true,
     "description": "Proxy service",
