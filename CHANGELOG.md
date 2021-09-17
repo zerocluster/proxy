@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.6.13 (2021-09-17)
+
+Fixes:
+
+-   fix: package renamed
+
 ### 1.6.12 (2021-09-12)
 
 Fixes:
