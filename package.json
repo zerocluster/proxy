@@ -1,6 +1,6 @@
 {
     "name": "services/proxy",
-    "version": "1.6.13",
+    "version": "1.6.14",
     "private": true,
     "description": "Proxy service",
     "keywords": [
