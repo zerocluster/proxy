@@ -25,6 +25,6 @@
         "#lib/*": "./lib/*.js"
     },
     "dependencies": {
-        "@softvisio/core": "^4.0.0"
+        "@softvisio/core": "^5.0.0"
     }
 }
