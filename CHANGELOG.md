@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.6.16 (2021-09-30)
+
+Fixes:
+
+-   fix: config files renamed
+
 ### 1.6.15 (2021-09-25)
 
 Fixes:
