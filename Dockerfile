@@ -1,4 +1,4 @@
-FROM softvisio/node
+FROM zerocluster/node
 
 HEALTHCHECK NONE
 

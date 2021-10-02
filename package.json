@@ -1,20 +1,20 @@
 {
-    "name": "proxy",
+    "name": "@zerocluster/proxy",
     "version": "1.6.17",
     "private": true,
     "description": "Proxy service",
     "keywords": [
-        "softvisio",
+        "zerocluster",
         "proxy"
     ],
-    "homepage": "https://github.com/softvisio/proxy",
+    "homepage": "https://github.com/zerocluster/proxy",
     "bugs": {
-        "url": "https://github.com/softvisio/proxy/issues",
+        "url": "https://github.com/zerocluster/proxy/issues",
         "email": "zdm@softvisio.net"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/softvisio/proxy.git"
+        "url": "https://github.com/zerocluster/proxy.git"
     },
     "license": "ISC",
     "author": "zdm <zdm@softvisio.net>",

@@ -1,6 +1,6 @@
 <!-- !!! DO NOT EDIT, THIS FILE IS GENERATED AUTOMATICALLY !!!  -->
 
-> :information_source: Please, see the full project documentation here: [https://softvisio.github.io/proxy/](https://softvisio.github.io/proxy/).
+> :information_source: Please, see the full project documentation here: [https://zerocluster.github.io/proxy/](https://zerocluster.github.io/proxy/).
 
 # Introduction
 
