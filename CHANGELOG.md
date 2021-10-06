@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.7.1 (2021-10-06)
+
+No notable changes since the previous release.
+
 ### 1.7.0 (2021-10-02)
 
 Features:
