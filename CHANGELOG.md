@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.0 (2021-11-08)
+
+Features:
+
+-   feat: dev script
+
 ### 1.7.1 (2021-10-06)
 
 No notable changes since the previous release.
