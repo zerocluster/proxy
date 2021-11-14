@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.1 (2021-11-14)
+
+Fixes:
+
+-   fix: dockerfile
+
 ### 1.8.0 (2021-11-08)
 
 Features:
