@@ -25,7 +25,7 @@
         "#lib/*": "./lib/*.js"
     },
     "scripts": {
-        "dev": "bin/main.js --mode=development"
+        "dev": "node bin/main.js --mode=development"
     },
     "dependencies": {
         "@softvisio/core": "^6.0.0"
