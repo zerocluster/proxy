@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.2 (2021-11-21)
+
+Fixes:
+
+-   fix: scripts
+
 ### 1.8.1 (2021-11-14)
 
 Fixes:
