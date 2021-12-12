@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.3 (2021-12-12)
+
+Fixes:
+
+-   fix: docker healthcheck
+
 ### 1.8.2 (2021-11-21)
 
 Fixes:
