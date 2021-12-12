@@ -1,7 +1,5 @@
 FROM zerocluster/node
 
-HEALTHCHECK NONE
-
 RUN \
     # install deps
     npm i --omit=dev \
