@@ -26,8 +26,11 @@ services:
     #   timeout: 10s
     #   retries: 3
 
+    # environment:
+    #   NODE_ENV: development
+
     configs:
-      - { source: env.local.yaml, target: /var/local/package/env.local.yaml }
+      - { source: env.yaml, target: /var/local/package/env.yaml }
 
     networks: [host]
 
@@ -38,7 +41,7 @@ services:
       context: .
 
 configs:
-  env.local.yaml: { file: env.local.yaml }
+  env.yaml: { file: env.local.yaml }
 
 networks:
   host: { name: host, external: true }
