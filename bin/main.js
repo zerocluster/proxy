@@ -3,7 +3,7 @@
 import env from "#core/env";
 import App from "#index";
 
-var config = env.readConfig();
+var config = env.loadEnv();
 
 const app = new App( config.config );
 
