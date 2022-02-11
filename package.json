@@ -21,8 +21,8 @@
     "type": "module",
     "imports": {
         "#core/*": "@softvisio/core/*",
-        "#index": "./lib/index.js",
-        "#lib/*": "./lib/*.js"
+        "#lib/*": "./lib/*.js",
+        "#resources/*": "./resources/*"
     },
     "scripts": {
         "dev": "node bin/main.js --mode=development",

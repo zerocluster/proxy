@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 
-import env from "#core/env";
-import App from "#index";
+import App from "#lib/app";
 
-var config = env.loadEnv();
+await App.Cli.parse( App );
 
-const app = new App( config.config );
+const app = new App();
 
-app.run();
+const res = await app.run();
+
+if ( !res.ok ) process.exit( 1 );
