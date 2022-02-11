@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.8.6 (2022-02-11)
+
+Fixes:
+
+-   fix: env readConfig -> loadEnv
+-   fix: migrated to app
+
 ### 1.8.5 (2022-02-08)
 
 Fixes:
