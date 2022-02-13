@@ -41,7 +41,7 @@ services:
       context: .
 
 configs:
-  env.yaml: { file: env.local.yaml }
+  env.yaml: { file: env.yaml }
 
 networks:
   host: { name: host, external: true }
