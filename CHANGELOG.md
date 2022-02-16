@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.8.8 (2022-02-16)
+
+Fixes:
+
+-   fix: configs update
+-   fix: proxy erver listen params
+
 ### 1.8.7 (2022-02-12)
 
 Fixes:
