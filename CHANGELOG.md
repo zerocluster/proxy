@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.9 (2022-02-18)
+
+Fixes:
+
+-   fix: config access
+
 ### 1.8.8 (2022-02-16)
 
 Fixes:
