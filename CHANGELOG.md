@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.8.11 (2022-02-21)
+
+Fixes:
+
+-   fix: ip refactored
+-   fix: subnets resources
+
 ### 1.8.10 (2022-02-21)
 
 Fixes:
