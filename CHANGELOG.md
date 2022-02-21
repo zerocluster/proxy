@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.8.10 (2022-02-21)
+
+Fixes:
+
+-   fix: metadata update
+-   fix: solid font awesome
+
 ### 1.8.9 (2022-02-18)
 
 Fixes:
