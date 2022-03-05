@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.8.12 (2022-03-05)
+
+Fixes:
+
+-   fix: ip subnets refactored
+-   fix: ip-range
+
 ### 1.8.11 (2022-02-21)
 
 Fixes:
