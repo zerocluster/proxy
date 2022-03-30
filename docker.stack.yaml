@@ -32,7 +32,8 @@ services:
     configs:
       - { source: env.yaml, target: /var/local/package/env.yaml }
 
-    networks: [host]
+    ports:
+      - { published: 51930, target: 51930 }
 
     volumes:
       - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
@@ -42,9 +43,6 @@ services:
 
 configs:
   env.yaml: { file: env.yaml }
-
-networks:
-  host: { name: host, external: true }
 
 x-build:
   default_tag: latest
