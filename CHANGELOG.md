@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.14 (2022-03-31)
+
+Fixes:
+
+-   fix: docker stack network added
+
 ### 1.8.13 (2022-03-30)
 
 Fixes:
