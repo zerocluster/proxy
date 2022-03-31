@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.15 (2022-03-31)
+
+Fixes:
+
+-   fix: docker stack
+
 ### 1.8.14 (2022-03-31)
 
 Fixes:
