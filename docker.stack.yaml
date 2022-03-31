@@ -32,6 +32,8 @@ services:
     configs:
       - { source: env.yaml, target: /var/local/package/env.yaml }
 
+    networks: [swarm]
+
     ports:
       - { published: 51930, target: 51930 }
 
@@ -43,6 +45,9 @@ services:
 
 configs:
   env.yaml: { file: env.yaml }
+
+networks:
+  swarm: { external: true }
 
 x-build:
   default_tag: latest
