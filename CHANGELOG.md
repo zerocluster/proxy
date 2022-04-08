@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.17 (2022-04-08)
+
+Fixes:
+
+-   fix: docker nginx labels
+
 ### 1.8.16 (2022-03-31)
 
 Fixes:
