@@ -8,7 +8,7 @@ version: "3.9"
 
 services:
   proxy:
-    image: zerocluster/proxy
+    image: ghcr.io/zerocluster/proxy
     init: true
     stop_grace_period: 5m
 

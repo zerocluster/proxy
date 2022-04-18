@@ -1,4 +1,6 @@
-FROM zerocluster/node
+FROM ghcr.io/zerocluster/node
+
+LABEL org.opencontainers.image.source https://github.com/zerocluster/proxy
 
 RUN \
     # install deps
