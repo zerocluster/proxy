@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.19 (2022-04-18)
+
+Fixes:
+
+-   fix: dockerfile label
+
 ### 1.8.18 (2022-04-18)
 
 Fixes:
