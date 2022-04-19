@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.8.20 (2022-04-19)
+
+Fixes:
+
+-   fix: docker github label removed
+
 ### 1.8.19 (2022-04-18)
 
 Fixes:
