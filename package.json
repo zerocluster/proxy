@@ -26,7 +26,7 @@
     },
     "scripts": {
         "dev": "node bin/main.js --mode=development",
-        "main": "node bin/main.js"
+        "docker": "node bin/main.js"
     },
     "dependencies": {
         "@softvisio/core": "^6.0.0"
