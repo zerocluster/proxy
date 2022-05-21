@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.9.1 (2022-05-21)
+
+Fixes:
+
+-   fix: ports
+-   fix: ports range support removed
+-   fix: proxy server hostname renamed to address
+
 ### 1.9.0 (2022-05-21)
 
 Features:
