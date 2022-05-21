@@ -16,8 +16,8 @@ services:
       replicas: 1
       placement:
         max_replicas_per_node: 1
-      labels:
-        nginx.stream.port: 1080
+      # labels:
+      #   nginx.stream.port: 8099
 
     # healthcheck:
     #   test: curl -f http://127.0.0.1/api/healthcheck || exit 1
@@ -34,8 +34,8 @@ services:
 
     networks: [main]
 
-    # ports:
-    #   - { published: 1080, target: 1080 }
+    ports:
+      - { published: 8099, target: 8099 }
 
     volumes:
       - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
