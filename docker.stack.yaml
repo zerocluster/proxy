@@ -17,9 +17,6 @@ services:
       placement:
         max_replicas_per_node: 1
       labels:
-        nginx.http.server-name: proxy.softvisio.net
-        nginx.http.client-max-body-size: 10m
-        nginx.http.cache.enabled:
         nginx.stream.port: 1080
 
     # healthcheck:
@@ -38,7 +35,6 @@ services:
     networks: [main]
 
     # ports:
-    #   - { published: 80, target: 80 }
     #   - { published: 1080, target: 1080 }
 
     volumes:
