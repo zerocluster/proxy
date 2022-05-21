@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.9.0 (2022-05-21)
+
+Features:
+
+-   feat: process shutdown controller
+
 ### 1.8.21 (2022-04-22)
 
 Fixes:
