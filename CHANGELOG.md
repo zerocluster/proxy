@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.9.2 (2022-05-23)
+
+Fixes:
+
+-   fix: proxy ports
+-   fix: proxy protocol added
+
 ### 1.9.1 (2022-05-21)
 
 Fixes:
