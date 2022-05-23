@@ -35,7 +35,7 @@ services:
     networks: [main]
 
     ports:
-      - { published: 8085, target: 8085 }
+      - { published: 8085, target: 8085, mode: host }
 
     volumes:
       - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
