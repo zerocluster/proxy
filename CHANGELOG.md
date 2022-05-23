@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.9.3 (2022-05-23)
+
+Fixes:
+
+-   fix: proxy publish host mode
+
 ### 1.9.2 (2022-05-23)
 
 Fixes:
