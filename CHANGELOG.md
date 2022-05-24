@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.9.4 (2022-05-24)
+
+Fixes:
+
+-   fix: proxy ports updated
+
 ### 1.9.3 (2022-05-23)
 
 Fixes:
