@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.9.6 (2022-05-26)
+
+Fixes:
+
+-   fix: proxy protocol trusted subnets
+
 ### 1.9.5 (2022-05-26)
 
 Fixes:
