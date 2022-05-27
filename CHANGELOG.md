@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.9.9 (2022-05-27)
+
+Fixes:
+
+-   fix: validation scheme
+
 ### 1.9.8 (2022-05-27)
 
 Fixes:
