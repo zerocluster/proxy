@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.9.8 (2022-05-27)
+
+Fixes:
+
+-   fix: config
+
 ### 1.9.7 (2022-05-27)
 
 Fixes:
