@@ -1,5 +1,15 @@
 # Changelog
 
+### 1.9.7 (2022-05-27)
+
+Fixes:
+
+-   fix: app refactored
+-   fix: default zone
+-   fix: trustedSubnets option
+-   fix: user zones
+-   fix: whitelist
+
 ### 1.9.6 (2022-05-26)
 
 Fixes:
