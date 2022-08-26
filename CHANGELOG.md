@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.9.10 (2022-08-26)
+
+Fixes:
+
+-   fix: todo removed
+
 ### 1.9.9 (2022-05-27)
 
 Fixes:
