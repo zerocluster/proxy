@@ -1,4 +1,0 @@
-activeConnectionsLimit: { type: integer, minimum: 0 }
-activeConnectionsUserLimit: { type: integer, minimum: 0 }
-
-json schema for config - not needed if ui will be developed;
