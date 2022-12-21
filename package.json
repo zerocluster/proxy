@@ -29,6 +29,6 @@
         "docker": "node bin/main.js"
     },
     "dependencies": {
-        "@softvisio/core": "^6.0.0"
+        "@softvisio/core": "^7.0.0"
     }
 }
