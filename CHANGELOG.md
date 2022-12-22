@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.9.12 (2022-12-22)
+
+Fixes:
+
+-   fix: app refactored
+-   fix: deps
+
 ### 1.9.11 (2022-09-14)
 
 Fixes:
