@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.9.15 (2023-05-21)
+
+Fixes:
+
+-   fix: proxy server import
+
 ### 1.9.14 (2023-04-22)
 
 Fixes:
