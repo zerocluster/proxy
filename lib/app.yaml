@@ -1,6 +1,9 @@
 dependencies:
   - "@softvisio/core"
 
+services:
+  default: ~
+
 components: ~
 
 config: ~
