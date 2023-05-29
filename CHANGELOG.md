@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.9.17 (2023-05-29)
+
+Fixes:
+
+-   fix: app docks gen
+
 ### 1.9.16 (2023-05-29)
 
 Fixes:
