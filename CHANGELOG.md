@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.9.19 (2023-06-04)
+
+Fixes:
+
+-   fix: health check
+
 ### 1.9.18 (2023-06-04)
 
 Fixes:
