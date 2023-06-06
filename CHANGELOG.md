@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.9.20 (2023-06-06)
+
+Fixes:
+
+-   fix: app configs
+
 ### 1.9.19 (2023-06-04)
 
 Fixes:
