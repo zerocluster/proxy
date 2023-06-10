@@ -34,7 +34,7 @@ services:
     environment:
       NODE_ENV: production
 
-    command: --service default
+    command: ""
 
     configs:
       - { source: env.yaml, target: /var/local/package/env.yaml }
