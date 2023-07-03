@@ -2,4 +2,4 @@
 
 import App from "#lib/app";
 
-await App.run();
+await App.start();
