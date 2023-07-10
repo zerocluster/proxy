@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.4 (2023-07-10)
+
+Fixes:
+
+-   fix: configure
+
 ### 1.10.3 (2023-07-06)
 
 Fixes:
