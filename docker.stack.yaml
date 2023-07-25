@@ -31,9 +31,6 @@ services:
     #   timeout: 10s
     #   retries: 3
 
-    environment:
-      NODE_ENV: production
-
     command: ""
 
     configs:
