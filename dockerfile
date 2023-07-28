@@ -1,4 +1,4 @@
-FROM ghcr.io/zerocluster/node
+FROM ghcr.io/zerocluster/node/app
 
 RUN \
     # install deps
