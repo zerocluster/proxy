@@ -44,8 +44,7 @@ services:
     volumes:
       - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
 
-    build:
-      context: .
+    build: .
 
 configs:
   env.yaml: { file: env.yaml }
