@@ -24,13 +24,6 @@ services:
       #   nginx.http.cache.inactive: 1w
       #   nginx.stream.port: 8085
 
-    # healthcheck:
-    #   test: curl -f http://127.0.0.1/api/check-health || exit 1
-    #   start_period: 60s
-    #   interval: 30s
-    #   timeout: 10s
-    #   retries: 3
-
     command: ""
 
     configs:
