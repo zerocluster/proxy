@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.9 (2023-07-29)
+
+Fixes:
+
+-   fix: app schema
+
 ### 1.10.8 (2023-07-29)
 
 Fixes:
