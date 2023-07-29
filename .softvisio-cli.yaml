@@ -1,0 +1,4 @@
+docker:
+  build:
+    defaultTag: latest
+    autoTags: [main, latest, next]
