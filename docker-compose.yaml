@@ -16,13 +16,6 @@ services:
       replicas: 1
       placement:
         max_replicas_per_node: 1
-      # labels:
-      #   nginx.http.server-name: proxy.softvisio.net
-      #   nginx.http.client-max-body-size: 10m
-      #   nginx.http.cache.enabled: 1
-      #   nginx.http.cache.max-size: 10g
-      #   nginx.http.cache.inactive: 1w
-      #   nginx.stream.port: 8085
 
     command: ""
 
