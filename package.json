@@ -25,7 +25,7 @@
         "#resources/*": "./resources/*"
     },
     "scripts": {
-        "dev": "node bin/main.js --mode=development"
+        "dev": "node bin/main.js run --mode=development"
     },
     "dependencies": {
         "@softvisio/core": "^7.0.0"

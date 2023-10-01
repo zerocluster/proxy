@@ -21,7 +21,7 @@ services:
         nginx.http.cache.enabled: false
         nginx.stream.ports: 8085
 
-    command: ""
+    command: run
 
     configs:
       - { source: env.yaml, target: /var/local/package/env.yaml }
