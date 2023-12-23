@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.16 (2023-12-23)
+
+Fixes:
+
+-   fix: nginx config
+
 ### 1.10.15 (2023-11-08)
 
 Fixes:
