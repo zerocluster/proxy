@@ -17,7 +17,7 @@ services:
       placement:
         max_replicas_per_node: 1
       labels:
-        nginx.1: tcp:443?serverName=proxy.softvisio.net&upstreamPort=80
+        nginx: tcp:443?serverName=proxy.softvisio.net&upstreamPort=80
 
     command: run
 
