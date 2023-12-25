@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.19 (2023-12-25)
+
+Fixes:
+
+-   fix: docker config
+
 ### 1.10.18 (2023-12-24)
 
 Fixes:
