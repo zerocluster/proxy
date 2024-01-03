@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.23 (2024-01-03)
+
+Fixes:
+
+-   fix: proxy protocol
+
 ### 1.10.22 (2024-01-02)
 
 Fixes:
