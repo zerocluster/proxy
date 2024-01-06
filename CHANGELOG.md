@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.24 (2024-01-06)
+
+Fixes:
+
+-   fix: nginx config
+
 ### 1.10.23 (2024-01-03)
 
 Fixes:
