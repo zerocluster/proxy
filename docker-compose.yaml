@@ -17,7 +17,7 @@ services:
       placement:
         max_replicas_per_node: 1
       labels:
-        nginx: upstreamPort=8085:proxy-protocol&port=443:tcp&serverName=proxy.softvisio.net
+        nginx: upstreamPort=8085:proxy-protocol&port=8085,8085:ssl&serverName=proxy.softvisio.net
 
     command: run
 
@@ -26,8 +26,8 @@ services:
 
     networks: [main]
 
-    ports:
-      - { published: 8085, target: 8085 }
+    # ports:
+    #   - { published: 8085, target: 8085 }
 
     volumes:
       - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
