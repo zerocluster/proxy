@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.28 (2024-01-25)
+
+Fixes:
+
+-   fix: focker config secrets
+
 ### 1.10.27 (2024-01-24)
 
 Fixes:
