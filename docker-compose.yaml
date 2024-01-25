@@ -21,7 +21,7 @@ services:
 
     command: run
 
-    configs:
+    secrets:
       - { source: env.yaml, target: /var/local/package/env.yaml }
 
     networks: [main]
@@ -34,7 +34,7 @@ services:
 
     build: .
 
-configs:
+secrets:
   env.yaml: { file: env.yaml }
 
 networks:
