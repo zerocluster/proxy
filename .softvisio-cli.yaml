@@ -2,3 +2,10 @@ docker:
   build:
     defaultTag: latest
     autoTags: [main, latest, next]
+
+docs:
+  location: docs
+
+  externalTypes:
+    - softvisio-node/core
+    - softvisio-node/result
