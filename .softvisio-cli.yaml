@@ -1,7 +1,6 @@
 docker:
-  build:
-    defaultTag: latest
-    autoTags: [main, latest, next]
+  defaultTag: latest
+  autoTags: [main, latest, next]
 
 docs:
   location: docs
