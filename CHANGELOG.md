@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.31 (2024-05-20)
+
+Fixes:
+
+-   fix: proxy port
+
 ### 1.10.30 (2024-04-24)
 
 Fixes:
