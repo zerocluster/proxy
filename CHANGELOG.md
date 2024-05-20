@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.32 (2024-05-20)
+
+Fixes:
+
+-   fix: nginx docker config
+
 ### 1.10.31 (2024-05-20)
 
 Fixes:
