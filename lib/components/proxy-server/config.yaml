@@ -13,3 +13,6 @@ config:
   trustedSubnets: [local, private]
 
   denySubnets: [local, private]
+
+  allowPorts: ~
+  denyPorts: ~

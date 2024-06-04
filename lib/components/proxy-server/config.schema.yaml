@@ -22,6 +22,16 @@
         - { type: "null" }
         - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
 
+    allowPorts:
+      anyOf:
+        - { type: "null" }
+        - { type: array, items: { type: string, format: ip-port }, minItems: 1, uniqueItems: true }
+
+    denyPorts:
+      anyOf:
+        - { type: "null" }
+        - { type: array, items: { type: string, format: ip-port }, minItems: 1, uniqueItems: true }
+
     defaultZone: { type: ["null", string] }
 
     zones:
