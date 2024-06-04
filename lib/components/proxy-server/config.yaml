@@ -1,0 +1,15 @@
+dependencies: ~
+
+optionalDependencies: ~
+
+config:
+  listen: 0.0.0.0
+  port: 8085
+
+  # proxy protocol trusted subnets:
+  # true - trust all
+  # false - do not trust
+  # array - list of trusted subnets
+  trustedSubnets: [local, private]
+
+  forbiddenSubnets: [local, private]
