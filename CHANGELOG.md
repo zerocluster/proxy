@@ -1,5 +1,12 @@
 # Changelog
 
+### 1.10.34 (2024-06-04)
+
+Fixes:
+
+-   fix: config
+-   fix: proxy client
+
 ### 1.10.33 (2024-05-29)
 
 Fixes:
