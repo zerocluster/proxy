@@ -20,12 +20,12 @@
     trustedSubnets:
       anyOf:
         - { type: boolean }
-        - { type: array, items: { type: string }, uniqueItems: true }
+        - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
 
     forbiddenSubnets:
       anyOf:
         - { type: "null" }
-        - { type: array, items: { type: string }, uniqueItems: true }
+        - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
 
     defaultZone: { type: ["null", string] }
 
