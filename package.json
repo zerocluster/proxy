@@ -1,6 +1,6 @@
 {
     "name": "@zerocluster/proxy",
-    "version": "1.10.34",
+    "version": "1.10.35",
     "private": true,
     "description": "Proxy service",
     "keywords": [
