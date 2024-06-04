@@ -17,7 +17,7 @@
         - { type: boolean }
         - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
 
-    forbiddenSubnets:
+    denySubnets:
       anyOf:
         - { type: "null" }
         - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }

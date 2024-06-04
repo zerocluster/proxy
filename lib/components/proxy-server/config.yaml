@@ -12,4 +12,4 @@ config:
   # array - list of trusted subnets
   trustedSubnets: [local, private]
 
-  forbiddenSubnets: [local, private]
+  denySubnets: [local, private]
