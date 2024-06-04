@@ -19,7 +19,7 @@
 
     trustedSubnets:
       anyOf:
-        - { type: ["null", boolean] }
+        - { type: boolean }
         - { type: array, items: { type: string }, uniqueItems: true }
 
     forbiddenSubnets:
@@ -27,7 +27,7 @@
         - { type: "null" }
         - { type: array, items: { type: string }, uniqueItems: true }
 
-    default_zone: { type: ["null", string] }
+    defaultZone: { type: ["null", string] }
 
     zones:
       type: object
@@ -58,7 +58,7 @@
               - { type: ["null", string] }
               - { type: array, items: { type: string }, uniqueItems: true }
 
-          default_zone:
+          defaultZone:
             anyOf:
               - { const: false }
               - { type: ["null", string] }
@@ -68,8 +68,8 @@
               - { type: ["null", string] }
               - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
 
-        required: [enabled, password, whitelist, default_zone, zones]
+        required: [enabled, password, whitelist, defaultZone, zones]
         additionalProperties: false
 
-  required: [listen, port, default_zone, zones, whitelist, users]
+  required: [listen, port, trustedSubnets, defaultZone, zones, whitelist, users]
   additionalProperties: false
