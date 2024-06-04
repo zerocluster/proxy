@@ -1,7 +1,12 @@
 dependencies:
   - "@softvisio/core"
 
-services: ~
+services:
+  server:
+    components:
+      proxyServer: true
+
+defaultService: server
 
 components: ~
 
