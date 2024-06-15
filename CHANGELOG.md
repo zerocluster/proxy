@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.36 (2024-06-15)
+
+Fixes:
+
+-   fix: hola proxy removed
+
 ### 1.10.35 (2024-06-04)
 
 Fixes:
