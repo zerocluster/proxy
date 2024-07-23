@@ -9,6 +9,7 @@ version: "3.9"
 services:
   proxy:
     image: ghcr.io/zerocluster/proxy
+    # depends_on: [postgresql]
     init: true
     stop_grace_period: 5m
 
@@ -23,7 +24,7 @@ services:
     command: run
 
     secrets:
-      - { source: env.yaml, target: /var/local/package/env.yaml }
+      - { source: proxy, target: /var/local/package/env.yaml }
 
     networks: [main]
 
@@ -36,7 +37,7 @@ services:
     build: .
 
 secrets:
-  env.yaml: { file: env.yaml }
+  proxy: { file: env.yaml }
 
 networks:
   main: { external: true }
