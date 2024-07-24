@@ -1,10 +1,10 @@
 #!/usr/bin/env -S docker stack deploy --with-registry-auth proxy -c
 
-version: "3.9"
-
 # NOTE deploy
 # docker stack deploy --with-registry-auth -c docker-stack.yaml proxy
 # docker node update --label-add proxy=true <NODE-NAME>
+
+version: "3.9"
 
 services:
   proxy:
@@ -26,7 +26,7 @@ services:
     secrets:
       - { source: proxy, target: /var/local/package/env.yaml }
 
-    networks: [main]
+    networks: [network]
 
     # ports:
     #   - { published: 8085, target: 8085 }
@@ -40,4 +40,6 @@ secrets:
   proxy: { file: env.yaml }
 
 networks:
-  main: { external: true }
+  network:
+    name: ${DOCKER_STACK_NETWORK_NAME:-ingress}
+    external: true
