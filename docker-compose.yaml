@@ -4,8 +4,6 @@
 # docker stack deploy --with-registry-auth -c docker-stack.yaml proxy
 # docker node update --label-add proxy=true <NODE-NAME>
 
-version: "3.9"
-
 services:
   proxy:
     image: ghcr.io/zerocluster/proxy
