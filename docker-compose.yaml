@@ -22,7 +22,7 @@ services:
     command: run
 
     secrets:
-      - { source: proxy, target: /var/local/package/env.yaml }
+      - { source: proxy_env.yaml, target: /var/local/package/env.yaml }
 
     networks: [network]
 
@@ -35,7 +35,7 @@ services:
     build: .
 
 secrets:
-  proxy: { file: env.yaml }
+  proxy_env.yaml: { file: env.yaml }
 
 networks:
   network:
