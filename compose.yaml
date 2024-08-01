@@ -4,9 +4,7 @@
 services:
   proxy:
     image: ghcr.io/zerocluster/proxy
-    # depends_on:
-    #   postgresql:
-    #     condition: service_healthy
+    # depends_on: [postgresql]
     init: true
     stop_grace_period: 5m
 
