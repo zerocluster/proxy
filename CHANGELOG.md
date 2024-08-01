@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.10.44 (2024-08-01)
+
+Fixes:
+
+-   fix: deps
+-   fix: docker depends_on
+-   fix: lint
+
 ### 1.10.43 (2024-07-30)
 
 Fixes:
