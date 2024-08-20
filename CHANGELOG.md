@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.10.50 (2024-08-20)
+
+No notable changes since the previous release.
+
 ### 1.10.49 (2024-08-19)
 
 No notable changes since the previous release.
