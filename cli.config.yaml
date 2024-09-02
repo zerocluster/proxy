@@ -3,7 +3,7 @@ docker:
   autoTags: [main, latest, next]
 
 docs:
-  location: docs
+  location: /docs
 
   externalTypes:
     - softvisio-node/core
