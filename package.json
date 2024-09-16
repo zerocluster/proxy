@@ -28,6 +28,6 @@
         "dev": "node bin/main.js run --mode=development"
     },
     "dependencies": {
-        "@softvisio/app": "^2.0.0"
+        "@softvisio/core": "^7.101.7"
     }
 }

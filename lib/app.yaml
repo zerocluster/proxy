@@ -1,5 +1,5 @@
 dependencies:
-  - "@softvisio/app"
+  - "@softvisio/core"
 
 services:
   server:
