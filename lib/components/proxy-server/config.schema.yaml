@@ -9,8 +9,8 @@
 
     port:
       anyOf:
-        - { type: integer, format: ip-port, minimum: 1 }
-        - { type: array, items: { type: integer, format: ip-port, minimum: 1 }, minItems: 1, uniqueItems: true }
+        - { type: integer, format: ip-port }
+        - { type: array, items: { type: integer, format: ip-port }, minItems: 1, uniqueItems: true }
 
     trustedSubnets:
       anyOf:
@@ -25,12 +25,12 @@
     allowPorts:
       anyOf:
         - { type: "null" }
-        - { type: array, items: { type: integer, format: ip-port, minimum: 1 }, minItems: 1, uniqueItems: true }
+        - { type: array, items: { type: integer, format: ip-port }, minItems: 1, uniqueItems: true }
 
     denyPorts:
       anyOf:
         - { type: "null" }
-        - { type: array, items: { type: string, format: ip-port, minimum: 1 }, minItems: 1, uniqueItems: true }
+        - { type: array, items: { type: string, format: ip-port }, minItems: 1, uniqueItems: true }
 
     defaultZone: { type: ["null", string] }
 
