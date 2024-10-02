@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.10.62 (2024-10-02)
+
+No notable changes since the previous release.
+
 ### 1.10.61 (2024-09-16)
 
 Fixes:
