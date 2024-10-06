@@ -4,8 +4,6 @@ updates:
   - package-ecosystem: npm
     directories:
       - /
-      - /build
-      - /frontend
     schedule:
       interval: daily
     open-pull-requests-limit: 0
