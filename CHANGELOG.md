@@ -1,5 +1,11 @@
 # Changelog
 
+### 1.10.64 (2024-10-17)
+
+No notable changes since the previous release.
+
+[Full list of the changes](https://github.com/zerocluster/proxy/compare/v1.10.63...v1.10.64)
+
 ### 1.10.63 (2024-10-09)
 
 Fixes:
