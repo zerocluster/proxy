@@ -25,7 +25,6 @@
         "#resources/*": "./resources/*"
     },
     "scripts": {
-        "release": "softvisio-cli package release",
         "start": "node bin/main.js run --mode=development"
     },
     "dependencies": {
