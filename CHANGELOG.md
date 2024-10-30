@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.10.70 (2024-10-30)
+
+Other changes:
+
+-   chore: update package dependencies
+
+[Compare with the previous release: v1.10.69 ... v1.10.70](https://github.com/zerocluster/proxy/compare/v1.10.69...v1.10.70)
+
 ### 1.10.69 (2024-10-29)
 
 Other changes:
