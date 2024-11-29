@@ -1,9 +1,9 @@
--   [Introduction](/)
+- [Introduction](/)
 
 **API**
 
--   [Introduction](/api.md)
+- [Introduction](/api.md)
 
 **Links**
 
--   [Changelog](/changelog)
+- [Changelog](/changelog)
