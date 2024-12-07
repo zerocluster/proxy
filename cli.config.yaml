@@ -1,10 +1,10 @@
 docker:
-  defaultTag: latest
-  autoTags: [main, latest, next]
+    defaultTag: latest
+    autoTags: [main, latest, next]
 
 docs:
-  location: /docs
+    location: /docs
 
-  externalTypes:
-    - softvisio-node/core
-    - softvisio-node/result
+    externalTypes:
+        - softvisio-node/core
+        - softvisio-node/result

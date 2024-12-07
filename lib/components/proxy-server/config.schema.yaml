@@ -5,76 +5,76 @@
 - $id: config
   type: object
   properties:
-    listen: { type: string, format: ipv4 }
+      listen: { type: string, format: ipv4 }
 
-    port:
-      anyOf:
-        - { type: integer, format: ip-port }
-        - { type: array, items: { type: integer, format: ip-port }, minItems: 1, uniqueItems: true }
+      port:
+          anyOf:
+              - { type: integer, format: ip-port }
+              - { type: array, items: { type: integer, format: ip-port }, minItems: 1, uniqueItems: true }
 
-    trustedSubnets:
-      anyOf:
-        - { type: boolean }
-        - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+      trustedSubnets:
+          anyOf:
+              - { type: boolean }
+              - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
 
-    denySubnets:
-      anyOf:
-        - { type: "null" }
-        - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+      denySubnets:
+          anyOf:
+              - { type: "null" }
+              - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
 
-    allowPorts:
-      anyOf:
-        - { type: "null" }
-        - { type: array, items: { type: integer, format: ip-port }, minItems: 1, uniqueItems: true }
+      allowPorts:
+          anyOf:
+              - { type: "null" }
+              - { type: array, items: { type: integer, format: ip-port }, minItems: 1, uniqueItems: true }
 
-    denyPorts:
-      anyOf:
-        - { type: "null" }
-        - { type: array, items: { type: string, format: ip-port }, minItems: 1, uniqueItems: true }
+      denyPorts:
+          anyOf:
+              - { type: "null" }
+              - { type: array, items: { type: string, format: ip-port }, minItems: 1, uniqueItems: true }
 
-    defaultZone: { type: ["null", string] }
+      defaultZone: { type: ["null", string] }
 
-    zones:
-      type: object
-      additionalProperties:
-        type: object
-        properties:
-          proxy: { type: [string, object] }
-        required: [proxy]
-        additionalProperties: false
+      zones:
+          type: object
+          additionalProperties:
+              type: object
+              properties:
+                  proxy: { type: [string, object] }
+              required: [proxy]
+              additionalProperties: false
 
-    whitelist:
-      anyOf:
-        - { type: ["null", string] }
-        - { type: array, items: { type: string }, uniqueItems: true }
-
-    users:
-      type: object
-      additionalProperties:
-        type: object
-        properties:
-          enabled: { type: boolean }
-
-          password: { type: string }
-
-          whitelist:
-            anyOf:
-              - { const: false }
+      whitelist:
+          anyOf:
               - { type: ["null", string] }
               - { type: array, items: { type: string }, uniqueItems: true }
 
-          defaultZone:
-            anyOf:
-              - { const: false }
-              - { type: ["null", string] }
+      users:
+          type: object
+          additionalProperties:
+              type: object
+              properties:
+                  enabled: { type: boolean }
 
-          zones:
-            anyOf:
-              - { type: ["null", string] }
-              - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+                  password: { type: string }
 
-        required: [enabled, password, whitelist, defaultZone, zones]
-        additionalProperties: false
+                  whitelist:
+                      anyOf:
+                          - { const: false }
+                          - { type: ["null", string] }
+                          - { type: array, items: { type: string }, uniqueItems: true }
+
+                  defaultZone:
+                      anyOf:
+                          - { const: false }
+                          - { type: ["null", string] }
+
+                  zones:
+                      anyOf:
+                          - { type: ["null", string] }
+                          - { type: array, items: { type: string }, minItems: 1, uniqueItems: true }
+
+              required: [enabled, password, whitelist, defaultZone, zones]
+              additionalProperties: false
 
   additionalProperties: false
   required: [listen, port, trustedSubnets, defaultZone, zones, whitelist, users]
