@@ -1,5 +1,16 @@
 # Changelog
 
+### 1.10.72 (2024-12-07)
+
+Other changes:
+
+- chore: lint
+- chore: set yaml indent to 4 spaces
+- chore: update package dependencies
+- chore: update package metadata
+
+[Compare with the previous release: v1.10.71 ... v1.10.72](https://github.com/zerocluster/proxy/compare/v1.10.71...v1.10.72)
+
 ### 1.10.71 (2024-11-04)
 
 Other changes:
