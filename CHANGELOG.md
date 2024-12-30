@@ -1,5 +1,14 @@
 # Changelog
 
+### 1.10.74 (2024-12-30)
+
+Other changes:
+
+- chore: update net proxy import
+- chore: update package dependencies
+
+[Compare with the previous release: v1.10.73 ... v1.10.74](https://github.com/zerocluster/proxy/compare/v1.10.73...v1.10.74)
+
 ### 1.10.73 (2024-12-27)
 
 Other changes:
