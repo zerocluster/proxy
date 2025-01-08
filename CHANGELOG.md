@@ -1,5 +1,14 @@
 # Changelog
 
+### 1.10.77 (2025-01-08)
+
+Other changes:
+
+- chore: update package dependencies
+- chore: update package metadata
+
+[Compare with the previous release: v1.10.76 ... v1.10.77](https://github.com/zerocluster/proxy/compare/v1.10.76...v1.10.77)
+
 ### 1.10.76 (2025-01-08)
 
 Other changes:
