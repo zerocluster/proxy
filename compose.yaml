@@ -13,7 +13,7 @@ services:
             placement:
                 max_replicas_per_node: 1
             labels:
-                nginx: upstream=8085:proxy-protocol&server=8085,8085:ssl&serverNames=proxy.softvisio.net
+                nginx: upstream=8085:proxy-protocol&servers=8085,8085:ssl&serverNames=proxy.softvisio.net
 
         command: run
 
