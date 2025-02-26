@@ -1,5 +1,15 @@
 # Changelog
 
+### 1.10.86 (2025-02-26)
+
+Other changes:
+
+- chore: refactor nginx
+- chore: update editorconfig
+- chore: update package dependencies
+
+Compare with the previous release: [`v1.10.85...v1.10.86`](https://github.com/zerocluster/proxy/compare/v1.10.85...v1.10.86)
+
 ### 1.10.85 (2025-02-20)
 
 Other changes:
