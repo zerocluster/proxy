@@ -1,5 +1,14 @@
 # Changelog
 
+### 1.10.88 (2025-02-27)
+
+Other changes:
+
+- chore: add editorconfig yaml
+- chore: update package dependencies
+
+Compare with the previous release: [`v1.10.87...v1.10.88`](https://github.com/zerocluster/proxy/compare/v1.10.87...v1.10.88)
+
 ### 1.10.87 (2025-02-27)
 
 Other changes:
