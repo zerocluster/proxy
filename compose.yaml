@@ -2,36 +2,36 @@
 # docker node update --label-add proxy=true <NODE-NAME>
 
 services:
-    proxy:
-        image: ghcr.io/zerocluster/proxy
-        # depends_on: [postgresql]
-        init: true
-        stop_grace_period: 5m
+  proxy:
+    image: ghcr.io/zerocluster/proxy
+    # depends_on: [postgresql]
+    init: true
+    stop_grace_period: 5m
 
-        deploy:
-            replicas: 1
-            placement:
-                max_replicas_per_node: 1
-            labels:
-                nginx: upstream=8085:proxy-protocol&servers=8085,8085:ssl&serverNames=proxy.softvisio.net
+    deploy:
+      replicas: 1
+      placement:
+        max_replicas_per_node: 1
+      labels:
+        nginx: upstream=8085:proxy-protocol&servers=8085,8085:ssl&serverNames=proxy.softvisio.net
 
-        command: run
+    command: run
 
-        secrets:
-            - { source: proxy_env.yaml, target: /var/local/package/env.yaml }
+    secrets:
+      - { source: proxy_env.yaml, target: /var/local/package/env.yaml }
 
-        networks: [network]
+    networks: [network]
 
-        # ports:
-        #   - { published: 8085, target: 8085 }
+    # ports:
+    #   - { published: 8085, target: 8085 }
 
-        volumes:
-            - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
+    volumes:
+      - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
 
-        build: .
+    build: .
 
 secrets:
-    proxy_env.yaml: { file: env.yaml }
+  proxy_env.yaml: { file: env.yaml }
 
 networks:
-    network: ~
+  network: ~

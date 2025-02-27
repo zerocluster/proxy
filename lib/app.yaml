@@ -1,10 +1,10 @@
 dependencies:
-    - "@softvisio/core"
+  - "@softvisio/core"
 
 services:
-    server:
-        components:
-            proxyServer: true
+  server:
+    components:
+      proxyServer: true
 
 defaultService: server
 
