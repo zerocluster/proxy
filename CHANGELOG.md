@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.10.91 (2025-03-03)
+
+Other changes:
+
+- chore: update nginx config
+
+Compare with the previous release: [`v1.10.90...v1.10.91`](https://github.com/zerocluster/proxy/compare/v1.10.90...v1.10.91)
+
 ### 1.10.90 (2025-03-03)
 
 Other changes:
