@@ -9,6 +9,24 @@
 
 - $id: config
   type: object
-  properties: {}
+  properties:
+    nginx:
+      type: object
+      properties:
+        apiUrl: { type: string, format: uri-whatwg }
+        proxyId:
+          anyOf:
+            - type: "null"
+            - { type: string, fotmat: kebab-case }
+
+        serverNames:
+          anyOf:
+            - type: "null"
+            - { type: string, format: nginx-server-name }
+            - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+
+      additionalProperties: false
+      required: [apiUrl, proxyId, serverNames]
+
   additionalProperties: false
-  required: []
+  required: [nginx]

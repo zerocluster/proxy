@@ -10,4 +10,8 @@ defaultService: server
 
 components: ~
 
-config: ~
+config:
+  nginx:
+    proxyId: ~
+    apiUrl: ~
+    serverNames: ~
