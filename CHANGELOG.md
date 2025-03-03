@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.10.92 (2025-03-03)
+
+Other changes:
+
+- chore: fix nginx api url
+
+Compare with the previous release: [`v1.10.91...v1.10.92`](https://github.com/zerocluster/proxy/compare/v1.10.91...v1.10.92)
+
 ### 1.10.91 (2025-03-03)
 
 Other changes:
