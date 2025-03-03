@@ -12,6 +12,6 @@ components: ~
 
 config:
   nginx:
+    apiUrl: ws://nginx:81/api
     proxyId: ~
-    apiUrl: ~
     serverNames: ~
