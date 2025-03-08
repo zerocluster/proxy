@@ -1,5 +1,15 @@
 # Changelog
 
+### 1.10.94 (2025-03-08)
+
+Other changes:
+
+- chore: fix shebang
+- chore: update package dependencies
+- chore: update package metadata
+
+Compare with the previous release: [`v1.10.93...v1.10.94`](https://github.com/zerocluster/proxy/compare/v1.10.93...v1.10.94)
+
 ### 1.10.93 (2025-03-03)
 
 Other changes:
