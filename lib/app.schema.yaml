@@ -13,7 +13,7 @@
     nginx:
       type: object
       properties:
-        apiUrl: { type: string, format: uri-whatwg }
+        apiUrl: { type: string, format: url }
         proxyId:
           anyOf:
             - type: "null"
