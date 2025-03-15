@@ -17,7 +17,7 @@
         proxyId:
           anyOf:
             - type: "null"
-            - { type: string, fotmat: kebab-case }
+            - { type: string, format: kebab-case }
 
         serverNames:
           anyOf:
