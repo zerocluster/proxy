@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.10.98 (2025-03-20)
+
+Other changes:
+
+- chore: update package dependencies
+
+Compare with the previous release: [`v1.10.97...v1.10.98`](https://github.com/zerocluster/proxy/compare/v1.10.97...v1.10.98)
+
 ### 1.10.97 (2025-03-16)
 
 Other changes:
