@@ -37,7 +37,7 @@ Proxy connect url: `http://username:password@hostname:port/`, where:
 
 Proxy connect url example:
 
-```text
+```
 http://username,zone-test,country-us,resolve,rotateTimeout-10000,rotateRandom-false:password@test.com:54930/
 
 ```
