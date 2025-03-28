@@ -1,5 +1,14 @@
 # Changelog
 
+### 1.10.99 (2025-03-28)
+
+Other changes:
+
+- chore: update markdown code tags
+- chore: update package dependencies
+
+Compare with the previous release: [`v1.10.98...v1.10.99`](https://github.com/zerocluster/proxy/compare/v1.10.98...v1.10.99)
+
 ### 1.10.98 (2025-03-20)
 
 Other changes:
