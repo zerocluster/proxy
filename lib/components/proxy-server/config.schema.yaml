@@ -39,7 +39,7 @@
       additionalProperties:
         type: object
         properties:
-          proxy: { type: [string, object] }
+          proxy: { type: ["null", string, object] }
         required: [proxy]
         additionalProperties: false
 
