@@ -1,5 +1,14 @@
 # Changelog
 
+### 1.10.105 (2025-04-10)
+
+Other changes:
+
+- chore: rename dockerfile
+- chore: update package dependencies
+
+Compare with the previous release: [`v1.10.104...v1.10.105`](https://github.com/zerocluster/proxy/compare/v1.10.104...v1.10.105)
+
 ### 1.10.104 (2025-04-06)
 
 Fixes:
