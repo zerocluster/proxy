@@ -1,5 +1,13 @@
 # Changelog
 
+### 1.10.118 (2025-05-10)
+
+**Other changes:**
+
+- chore: update package dependencies
+
+Compare with the previous release: [`v1.10.117...v1.10.118`](https://github.com/zerocluster/proxy/compare/v1.10.117...v1.10.118)
+
 ### 1.10.117 (2025-05-07)
 
 Other changes:
