@@ -7,6 +7,21 @@
   properties:
     listen: { type: string, format: ipv4 }
 
+    nginx:
+      type: object
+      properties:
+        enabled: { type: boolean }
+        apiUrl: { type: string, format: url }
+
+        serverNames:
+          anyOf:
+            - type: "null"
+            - { type: string, format: nginx-server-name }
+            - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+
+      additionalProperties: false
+      required: [enabled, apiUrl, serverNames]
+
     port:
       anyOf:
         - { type: integer, format: ip-port }
@@ -77,4 +92,4 @@
         additionalProperties: false
 
   additionalProperties: false
-  required: [listen, port, trustedSubnets, defaultZone, zones, whitelist, users]
+  required: [listen, port, nginx, trustedSubnets, defaultZone, zones, whitelist, users]

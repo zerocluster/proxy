@@ -6,6 +6,11 @@ config:
   listen: 0.0.0.0
   port: 8085
 
+  nginx:
+    apiUrl: ws://nginx:81/api
+    enabled: false
+    serverNames: ~
+
   # proxy protocol trusted subnets:
   # true - trust all
   # false - do not trust
