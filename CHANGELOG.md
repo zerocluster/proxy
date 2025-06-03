@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.10.129 (2025-06-03)
+
+**Other changes:**
+
+- \[PATCH] chore: add app name (👬 zdm)
+
+- \[PATCH] chore: refactor nginx integration (👬 zdm)
+
+- \[PATCH] chore: update package dependencies (👬 zdm)
+
+Compare with the previous release: [v1.10.128](https://github.com/zerocluster/proxy/compare/v1.10.128...v1.10.129)
+
 ### v1.10.128 (2025-06-01)
 
 **Other changes:**
