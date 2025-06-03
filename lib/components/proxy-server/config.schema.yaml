@@ -5,12 +5,8 @@
 - $id: config
   type: object
   properties:
-    listen: { type: string, format: ipv4 }
-
-    port:
-      anyOf:
-        - { type: integer, format: ip-port }
-        - { type: array, items: { type: integer, format: ip-port }, minItems: 1, uniqueItems: true }
+    listen: { type: string, format: ip-address }
+    port: { type: integer, format: ip-port }
 
     trustedSubnets:
       anyOf:
