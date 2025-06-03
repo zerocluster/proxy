@@ -1,6 +1,7 @@
 dependencies: ~
 
-optionalDependencies: ~
+optionalDependencies:
+  - nginx
 
 config:
   listen: 0.0.0.0
