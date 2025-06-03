@@ -13,11 +13,8 @@
     nginx:
       type: object
       properties:
+        enabled: { type: boolean }
         apiUrl: { type: string, format: url }
-        proxyId:
-          anyOf:
-            - type: "null"
-            - { type: string, format: kebab-case }
 
         serverNames:
           anyOf:
@@ -26,7 +23,7 @@
             - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
 
       additionalProperties: false
-      required: [apiUrl, proxyId, serverNames]
+      required: [enabled, apiUrl, serverNames]
 
   additionalProperties: false
   required: [nginx]
