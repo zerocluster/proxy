@@ -8,7 +8,9 @@ services:
 
 defaultService: server
 
-components: ~
+components:
+  env:
+    name: proxy
 
 config:
   nginx:
