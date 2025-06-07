@@ -1,4 +1,5 @@
-releasable: true
+release:
+  enabled: true
 
 docker:
   defaultTag: latest
