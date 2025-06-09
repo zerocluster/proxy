@@ -9,8 +9,9 @@ config:
   port: 8085
 
   nginx:
+    enabled: true
     apiUrl: ws://nginx:81/api
-    enabled: false
+
     serverNames: ~
 
   # proxy protocol trusted subnets:
