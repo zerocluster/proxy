@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.10.132 (2025-06-09)
+
+**Other changes:**
+
+- \[PATCH] chore: enable nginx upstream (👬 zdm)
+
+- \[PATCH] chore: refactor app configure (👬 zdm)
+
+- \[PATCH] chore: update cli config (👬 zdm)
+
+- \[PATCH] chore(deps): update package dependencies (👬 zdm)
+
+Compare with the previous release: [v1.10.131](https://github.com/zerocluster/proxy/compare/v1.10.131...v1.10.132)
+
 ### v1.10.131 (2025-06-03)
 
 **Other changes:**
