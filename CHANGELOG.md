@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.133 (2025-06-09)
+
+**Other changes:**
+
+- \[PATCH] chore: set nginx upstream enabled by default (👬 zdm)
+
+Compare with the previous release: [v1.10.132](https://github.com/zerocluster/proxy/compare/v1.10.132...v1.10.133)
+
 ### v1.10.132 (2025-06-09)
 
 **Other changes:**
