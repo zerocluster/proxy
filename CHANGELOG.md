@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.10.137 (2025-06-10)
+
+**Other changes:**
+
+- \[PATCH] chore(deps): update package dependencies (👬 zdm)
+
+Compare with the previous release: [v1.10.136](https://github.com/zerocluster/proxy/compare/v1.10.136...v1.10.137)
+
 ### v1.10.136 (2025-06-10)
 
 **Other changes:**
