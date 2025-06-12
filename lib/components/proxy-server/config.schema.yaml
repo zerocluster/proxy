@@ -5,6 +5,21 @@
 - $id: config
   type: object
   properties:
+    nginx:
+      type: object
+      properties:
+        enabled: { type: boolean }
+        apiUrl: { type: string, format: url }
+
+        serverNames:
+          anyOf:
+            - type: "null"
+            - { type: string, format: nginx-server-name }
+            - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
+
+      additionalProperties: false
+      required: [enabled, apiUrl, serverNames]
+
     listen: { type: string, format: ip-address }
     port: { type: integer, format: ip-port }
 
@@ -72,20 +87,5 @@
         required: [enabled, password, whitelist, defaultZone, zones]
         additionalProperties: false
 
-    nginx:
-      type: object
-      properties:
-        enabled: { type: boolean }
-        apiUrl: { type: string, format: url }
-
-        serverNames:
-          anyOf:
-            - type: "null"
-            - { type: string, format: nginx-server-name }
-            - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
-
-      additionalProperties: false
-      required: [enabled, apiUrl, serverNames]
-
   additionalProperties: false
-  required: [listen, port, trustedSubnets, defaultZone, zones, whitelist, users, nginx]
+  required: [nginx, listen, port, trustedSubnets, defaultZone, zones, whitelist, users]

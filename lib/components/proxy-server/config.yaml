@@ -5,14 +5,13 @@ optionalDependencies:
   - nginxUpstream
 
 config:
-  listen: 0.0.0.0
-  port: 8085
-
   nginx:
     enabled: true
     apiUrl: ws://nginx:81/api
-
     serverNames: ~
+
+  listen: 0.0.0.0
+  port: 8085
 
   # proxy protocol trusted subnets:
   # true - trust all
