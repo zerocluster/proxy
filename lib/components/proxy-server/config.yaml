@@ -20,4 +20,6 @@ config:
   denyPorts: ~
 
   nginx:
+    enabled: true
+    apiUrl: ws://nginx:81/api
     serverNames: ~
