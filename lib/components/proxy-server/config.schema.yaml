@@ -76,7 +76,6 @@
       type: object
       properties:
         enabled: { type: boolean }
-        apiUrl: { type: string, format: url }
         serverNames:
           anyOf:
             - type: "null"
@@ -84,7 +83,7 @@
             - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
 
       additionalProperties: false
-      required: [enabled, apiUrl, serverNames]
+      required: [enabled, serverNames]
 
   additionalProperties: false
   required: [nginx, listen, port, trustedSubnets, defaultZone, zones, whitelist, users]
