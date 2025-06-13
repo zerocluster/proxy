@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.1 (2025-06-13)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [2d2ccdb](https://github.com/zerocluster/proxy/commit/2d2ccdb); 👬 zdm)
+
+Compare with the previous release: [v1.11.0](https://github.com/zerocluster/proxy/compare/v1.11.0...v1.11.1)
+
 ### v1.11.0 (2025-06-13)
 
 **New features:**
