@@ -1,5 +1,23 @@
 # Changelog
 
+### v1.11.0 (2025-06-13)
+
+**New features:**
+
+- \[MINOR] feat: add nginx upstream port (● [8f09fcf](https://github.com/zerocluster/proxy/commit/8f09fcf); 👬 zdm)
+
+**Refactoring:**
+
+- \[PATCH] refactor: update default config (● [0bdc534](https://github.com/zerocluster/proxy/commit/0bdc534), [a25fa05](https://github.com/zerocluster/proxy/commit/a25fa05); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [67af2f2](https://github.com/zerocluster/proxy/commit/67af2f2), [634d96c](https://github.com/zerocluster/proxy/commit/634d96c), [674e0d8](https://github.com/zerocluster/proxy/commit/674e0d8), [b136c93](https://github.com/zerocluster/proxy/commit/b136c93); 👬 zdm)
+
+- chore(style): update configs (● [eeb700a](https://github.com/zerocluster/proxy/commit/eeb700a), [8d5da9d](https://github.com/zerocluster/proxy/commit/8d5da9d); 👬 zdm)
+
+Compare with the previous release: [v1.10.137](https://github.com/zerocluster/proxy/compare/v1.10.137...v1.11.0)
+
 ### v1.10.137 (2025-06-10)
 
 **Other changes:**
