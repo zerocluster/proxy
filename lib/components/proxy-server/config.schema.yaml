@@ -76,6 +76,10 @@
       type: object
       properties:
         enabled: { type: boolean }
+        port:
+          anyOf:
+            - type: "null"
+            - { type: integer, format: ip-port }
         serverNames:
           anyOf:
             - type: "null"
@@ -83,7 +87,7 @@
             - { type: array, items: { type: string, format: nginx-server-name }, minItems: 1, uniqueItems: true }
 
       additionalProperties: false
-      required: [enabled, serverNames]
+      required: [enabled, port, serverNames]
 
   additionalProperties: false
   required: [nginx, listen, port, trustedSubnets, defaultZone, zones, whitelist, users]
