@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.11.2 (2025-06-17)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [d2437a0](https://github.com/zerocluster/proxy/commit/d2437a0); 👬 zdm)
+
+- chore(style): update docker compose (● [e16ea0e](https://github.com/zerocluster/proxy/commit/e16ea0e), [6305195](https://github.com/zerocluster/proxy/commit/6305195); 👬 zdm)
+
+- deps: update package dependencies (● [e67d433](https://github.com/zerocluster/proxy/commit/e67d433), [1b77b9d](https://github.com/zerocluster/proxy/commit/1b77b9d); 👬 zdm)
+
+Compare with the previous release: [v1.11.1](https://github.com/zerocluster/proxy/compare/v1.11.1...v1.11.2)
+
 ### v1.11.1 (2025-06-13)
 
 **Other changes:**
