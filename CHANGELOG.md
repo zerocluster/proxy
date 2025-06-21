@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.11.3 (2025-06-21)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [7a6cbdb](https://github.com/zerocluster/proxy/commit/7a6cbdb), [128708e](https://github.com/zerocluster/proxy/commit/128708e); 👬 zdm)
+
+Compare with the previous release: [v1.11.2](https://github.com/zerocluster/proxy/compare/v1.11.2...v1.11.3)
+
 ### v1.11.2 (2025-06-17)
 
 **Other changes:**
