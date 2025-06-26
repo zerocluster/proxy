@@ -5,4 +5,5 @@ RUN \
     NODE_ENV=production npm install-clean \
     \
     # cleanup
-    && bash <(curl -fsSL "https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh") cleanup
+    && script=$(curl -fsSL "https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh") \
+    && bash <(echo "$script") cleanup
