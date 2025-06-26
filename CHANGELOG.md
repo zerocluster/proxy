@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.11.5 (2025-06-26)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: fix bash invocation in scripts (● [ddb09f9](https://github.com/zerocluster/proxy/commit/ddb09f9); 👬 zdm)
+
+- \[PATCH] refactor: fix external bash scripts invocation (● [6013cdc](https://github.com/zerocluster/proxy/commit/6013cdc); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [9323cf2](https://github.com/zerocluster/proxy/commit/9323cf2); 👬 zdm)
+
+Compare with the previous release: [v1.11.4](https://github.com/zerocluster/proxy/compare/v1.11.4...v1.11.5)
+
 ### v1.11.4 (2025-06-25)
 
 **Other changes:**
