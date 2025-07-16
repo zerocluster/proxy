@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.11.14 (2025-07-16)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [a05e4b6](https://github.com/zerocluster/proxy/commit/a05e4b6); 👬 zdm)
+
+- style: lint (● [6d85ce0](https://github.com/zerocluster/proxy/commit/6d85ce0); 👬 zdm)
+
+Compare with the previous release: [v1.11.13](https://github.com/zerocluster/proxy/compare/v1.11.13...v1.11.14)
+
 ### v1.11.13 (2025-07-16)
 
 **Other changes:**
