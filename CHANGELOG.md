@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.11.15 (2025-08-09)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix editorconfig (● [382b78f](https://github.com/zerocluster/proxy/commit/382b78f); 👬 zdm)
+
+- \[PATCH] fix: update editorconfig (● [acdba9a](https://github.com/zerocluster/proxy/commit/acdba9a); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [58442e9](https://github.com/zerocluster/proxy/commit/58442e9), [f7266fc](https://github.com/zerocluster/proxy/commit/f7266fc), [e9d5bd9](https://github.com/zerocluster/proxy/commit/e9d5bd9), [8fc889c](https://github.com/zerocluster/proxy/commit/8fc889c); 👬 zdm)
+
+Compare with the previous release: [v1.11.14](https://github.com/zerocluster/proxy/compare/v1.11.14...v1.11.15)
+
 ### v1.11.14 (2025-07-16)
 
 **Other changes:**
