@@ -9,5 +9,5 @@ docs:
   location: /docs
 
   externalTypes:
-    - softvisio-node/core
-    - softvisio-node/result
+    - c0rejs/core
+    - c0rejs/result
