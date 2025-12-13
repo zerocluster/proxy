@@ -26,9 +26,7 @@ services:
     build:
       context: .
       secrets:
-        - id=GITHUB_TOKEN,env=GITHUB_TOKEN
         - id=NPM_TOKEN_GITHUB,env=NPM_TOKEN_GITHUB
-        - id=NPM_TOKEN_NPMJS,env=NPM_TOKEN_NPMJS
 
 secrets:
   proxy_env.yaml: { file: env.yaml }
