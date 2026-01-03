@@ -1,5 +1,23 @@
 # Changelog
 
+### v1.12.0 (2026-01-03)
+
+**New features:**
+
+- \[MINOR] feat: add docker build secrets (● [22ac6d8](https://github.com/zerocluster/proxy/commit/22ac6d8), [c7e7bbd](https://github.com/zerocluster/proxy/commit/c7e7bbd); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: remove NPM_TOKEN_GITHUB (● [fc7c682](https://github.com/zerocluster/proxy/commit/fc7c682); 👬 zdm)
+
+**Other changes:**
+
+- build: migrate to c0rejs namespace (● [a01c4ee](https://github.com/zerocluster/proxy/commit/a01c4ee); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [58ad6c3](https://github.com/zerocluster/proxy/commit/58ad6c3), [d6016c4](https://github.com/zerocluster/proxy/commit/d6016c4), [91df4dd](https://github.com/zerocluster/proxy/commit/91df4dd), [39fe8fa](https://github.com/zerocluster/proxy/commit/39fe8fa), [800c7fd](https://github.com/zerocluster/proxy/commit/800c7fd), [f379384](https://github.com/zerocluster/proxy/commit/f379384), [76504c8](https://github.com/zerocluster/proxy/commit/76504c8), [8a62a6a](https://github.com/zerocluster/proxy/commit/8a62a6a), [8023562](https://github.com/zerocluster/proxy/commit/8023562), [0907485](https://github.com/zerocluster/proxy/commit/0907485), [1c855d1](https://github.com/zerocluster/proxy/commit/1c855d1), [12ed7f1](https://github.com/zerocluster/proxy/commit/12ed7f1), [c9650b4](https://github.com/zerocluster/proxy/commit/c9650b4), [54a4f72](https://github.com/zerocluster/proxy/commit/54a4f72), [f255dc5](https://github.com/zerocluster/proxy/commit/f255dc5), [e705d60](https://github.com/zerocluster/proxy/commit/e705d60), [2f07d03](https://github.com/zerocluster/proxy/commit/2f07d03), [c57b5b1](https://github.com/zerocluster/proxy/commit/c57b5b1), [088dc88](https://github.com/zerocluster/proxy/commit/088dc88); 👬 zdm)
+
+Compare with the previous release: [v1.11.19](https://github.com/zerocluster/proxy/compare/v1.11.19...v1.12.0)
+
 ### v1.11.19 (2025-10-16)
 
 **Other changes:**
