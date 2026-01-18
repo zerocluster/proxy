@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.12.1 (2026-01-18)
+
+**Other changes:**
+
+- chore: remove npm @sencha:registry (● [3a37e05](https://github.com/zerocluster/proxy/commit/3a37e05); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [e9c49cb](https://github.com/zerocluster/proxy/commit/e9c49cb), [1aec56e](https://github.com/zerocluster/proxy/commit/1aec56e), [25cd899](https://github.com/zerocluster/proxy/commit/25cd899), [5a6d2ec](https://github.com/zerocluster/proxy/commit/5a6d2ec), [4bee3d5](https://github.com/zerocluster/proxy/commit/4bee3d5); 👬 zdm)
+
+Compare with the previous release: [v1.12.0](https://github.com/zerocluster/proxy/compare/v1.12.0...v1.12.1)
+
 ### v1.12.0 (2026-01-03)
 
 **New features:**
