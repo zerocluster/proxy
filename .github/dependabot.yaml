@@ -1,9 +1,9 @@
 version: 2
-registries:
-  npm.pkg.github.com:
-    type: npm-registry
-    url: https://npm.pkg.github.com
-    # token: ${{secrets.GITHUB_TOKEN}}
+# registries:
+#   npm.pkg.github.com:
+#     type: npm-registry
+#     url: https://npm.pkg.github.com
+#     # token: ${{secrets.GITHUB_TOKEN}}
 updates:
   - package-ecosystem: docker
     directories:
@@ -15,7 +15,7 @@ updates:
       timezone: UTC
     open-pull-requests-limit: 5
   - package-ecosystem: npm
-    registries: "*"
+    # registries: "*"
     directories:
       - /
     schedule:
