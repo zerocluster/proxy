@@ -15,7 +15,7 @@ updates:
       timezone: UTC
     open-pull-requests-limit: 5
   - package-ecosystem: npm
-    # registry: npm.pkg.github.com
+    registry: npm.pkg.github.com
     directories:
       - /
     schedule:
