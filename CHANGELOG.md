@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.12.2 (2026-01-29)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix dependabot config (● [fb85496](https://github.com/zerocluster/proxy/commit/fb85496), [49e34d7](https://github.com/zerocluster/proxy/commit/49e34d7), [3b6c7c4](https://github.com/zerocluster/proxy/commit/3b6c7c4), [1fa3f1c](https://github.com/zerocluster/proxy/commit/1fa3f1c), [e68023c](https://github.com/zerocluster/proxy/commit/e68023c); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [8c7eb78](https://github.com/zerocluster/proxy/commit/8c7eb78), [0d833c2](https://github.com/zerocluster/proxy/commit/0d833c2), [ac75650](https://github.com/zerocluster/proxy/commit/ac75650), [d69db1a](https://github.com/zerocluster/proxy/commit/d69db1a); 👬 zdm)
+
+- chore(metadata): update package metadata (● [205e787](https://github.com/zerocluster/proxy/commit/205e787), [054f6a7](https://github.com/zerocluster/proxy/commit/054f6a7); 👬 zdm)
+
+Compare with the previous release: [v1.12.1](https://github.com/zerocluster/proxy/compare/v1.12.1...v1.12.2)
+
 ### v1.12.1 (2026-01-18)
 
 **Other changes:**
