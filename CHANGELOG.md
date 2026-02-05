@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.12.6 (2026-02-05)
+
+**Other changes:**
+
+- chore: remove @zdm npm registry (● [6b64d41](https://github.com/zerocluster/proxy/commit/6b64d41); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [5e5996a](https://github.com/zerocluster/proxy/commit/5e5996a), [29ac840](https://github.com/zerocluster/proxy/commit/29ac840), [28976a2](https://github.com/zerocluster/proxy/commit/28976a2), [2e3c661](https://github.com/zerocluster/proxy/commit/2e3c661), [8b84b53](https://github.com/zerocluster/proxy/commit/8b84b53); 👬 zdm)
+
+Compare with the previous release: [v1.12.5](https://github.com/zerocluster/proxy/compare/v1.12.5...v1.12.6)
+
 ### v1.12.5 (2026-01-31)
 
 **Other changes:**
