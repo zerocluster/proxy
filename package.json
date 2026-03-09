@@ -28,6 +28,6 @@
         "start": "node bin/main.js run --mode=development"
     },
     "dependencies": {
-        "@corejslib/core": "^7.101.7"
+        "@corejslib/core": "^7.209.0"
     }
 }
