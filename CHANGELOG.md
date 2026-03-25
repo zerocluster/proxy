@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.12.15 (2026-03-25)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [3badc35](https://github.com/zerocluster/proxy/commit/3badc35); 👬 zdm)
+
+Compare with the previous release: [v1.12.14](https://github.com/zerocluster/proxy/compare/v1.12.14...v1.12.15)
+
 ### v1.12.14 (2026-03-24)
 
 **Other changes:**
