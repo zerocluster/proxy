@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.12.26 (2026-04-07)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [68370c1](https://github.com/zerocluster/proxy/commit/68370c1); 👬 zdm)
+
+Compare with the previous release: [v1.12.25](https://github.com/zerocluster/proxy/compare/v1.12.25...v1.12.26)
+
 ### v1.12.25 (2026-04-06)
 
 **Other changes:**
