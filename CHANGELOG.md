@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.12.29 (2026-04-14)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update dockerfile (● [c500807](https://github.com/zerocluster/proxy/commit/c500807); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [ffbcb2c](https://github.com/zerocluster/proxy/commit/ffbcb2c), [cac82b5](https://github.com/zerocluster/proxy/commit/cac82b5), [de1b6ba](https://github.com/zerocluster/proxy/commit/de1b6ba), [3e0df91](https://github.com/zerocluster/proxy/commit/3e0df91), [b418ea1](https://github.com/zerocluster/proxy/commit/b418ea1), [d09e798](https://github.com/zerocluster/proxy/commit/d09e798); 👬 zdm)
+
+Compare with the previous release: [v1.12.28](https://github.com/zerocluster/proxy/compare/v1.12.28...v1.12.29)
+
 ### v1.12.28 (2026-04-09)
 
 **Other changes:**
