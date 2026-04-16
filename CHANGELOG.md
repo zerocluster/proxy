@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.12.30 (2026-04-16)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix dockerfile errors handler (● [3848218](https://github.com/zerocluster/proxy/commit/3848218); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [93d975d](https://github.com/zerocluster/proxy/commit/93d975d); 👬 zdm)
+
+Compare with the previous release: [v1.12.29](https://github.com/zerocluster/proxy/compare/v1.12.29...v1.12.30)
+
 ### v1.12.29 (2026-04-14)
 
 **Code refactoring:**
