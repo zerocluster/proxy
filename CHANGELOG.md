@@ -1,5 +1,23 @@
 # Changelog
 
+### v1.12.32 (2026-04-26)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix sh error trap (● [e8a9f79](https://github.com/zerocluster/proxy/commit/e8a9f79); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update .editorconfig (● [e9653bc](https://github.com/zerocluster/proxy/commit/e9653bc); 👬 zdm)
+
+- \[PATCH] refactor: update sh error trap (● [cd925d3](https://github.com/zerocluster/proxy/commit/cd925d3); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [3e2a970](https://github.com/zerocluster/proxy/commit/3e2a970), [58a3f12](https://github.com/zerocluster/proxy/commit/58a3f12), [d0b0d56](https://github.com/zerocluster/proxy/commit/d0b0d56), [0910478](https://github.com/zerocluster/proxy/commit/0910478), [dd180a9](https://github.com/zerocluster/proxy/commit/dd180a9), [9186505](https://github.com/zerocluster/proxy/commit/9186505), [ed738e4](https://github.com/zerocluster/proxy/commit/ed738e4); 👬 zdm)
+
+Compare with the previous release: [v1.12.31...v1.12.32](https://github.com/zerocluster/proxy/compare/v1.12.31...v1.12.32)
+
 ### v1.12.31 (2026-04-20)
 
 **Other changes:**
