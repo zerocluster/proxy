@@ -1,6 +1,3 @@
-# NOTE: deploy
-# docker node update --label-add proxy=true <NODE-NAME>
-
 services:
   proxy:
     image: ghcr.io/zerocluster/proxy
