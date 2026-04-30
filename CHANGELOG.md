@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.12.34 (2026-04-30)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix compose file (● [704b74d](https://github.com/zerocluster/proxy/commit/704b74d); 👬 zdm)
+
+Compare with the previous release: [v1.12.33...v1.12.34](https://github.com/zerocluster/proxy/compare/v1.12.33...v1.12.34)
+
 ### v1.12.33 (2026-04-29)
 
 **Other changes:**
