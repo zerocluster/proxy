@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.12.35 (2026-05-11)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename cli.config.yaml to scli.config.yaml (● [9185847](https://github.com/zerocluster/proxy/commit/9185847); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [fcef778](https://github.com/zerocluster/proxy/commit/fcef778), [8bbcb59](https://github.com/zerocluster/proxy/commit/8bbcb59), [b8275a7](https://github.com/zerocluster/proxy/commit/b8275a7), [60691f6](https://github.com/zerocluster/proxy/commit/60691f6), [1d5577b](https://github.com/zerocluster/proxy/commit/1d5577b), [0c526cc](https://github.com/zerocluster/proxy/commit/0c526cc), [861b843](https://github.com/zerocluster/proxy/commit/861b843), [45a5c51](https://github.com/zerocluster/proxy/commit/45a5c51), [9c134af](https://github.com/zerocluster/proxy/commit/9c134af), [f48ba28](https://github.com/zerocluster/proxy/commit/f48ba28), [18e74a9](https://github.com/zerocluster/proxy/commit/18e74a9), [89f3942](https://github.com/zerocluster/proxy/commit/89f3942), [67e098f](https://github.com/zerocluster/proxy/commit/67e098f), [8d483e4](https://github.com/zerocluster/proxy/commit/8d483e4); 👬 zdm)
+
+Compare with the previous release: [v1.12.34...v1.12.35](https://github.com/zerocluster/proxy/compare/v1.12.34...v1.12.35)
+
 ### v1.12.34 (2026-04-30)
 
 **Bug fixes:**
