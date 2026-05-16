@@ -1,7 +1,7 @@
 <!-- !!! DO NOT EDIT, THIS FILE IS GENERATED AUTOMATICALLY !!!  -->
 
 > \[!NOTE]
-> Please, see the full project documentation here:<br><https://zerocluster.github.io/proxy/>
+> Please, see the full project documentation here: <https://zerocluster.github.io/proxy/>
 
 # Introduction
 
