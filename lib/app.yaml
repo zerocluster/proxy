@@ -2,11 +2,11 @@ dependencies:
   - "@corejslib/core"
 
 services:
-  server:
+  main:
     components:
       proxyServer: true
 
-defaultService: server
+defaultService: main
 
 components:
   env:
