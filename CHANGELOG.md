@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.12.39 (2026-05-29)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename app service to main (● [6ed2d6e](https://github.com/zerocluster/proxy/commit/6ed2d6e); 👬 zdm)
+
+**Other changes:**
+
+- build: remove registries from .npmrc (● [c9133af](https://github.com/zerocluster/proxy/commit/c9133af); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [1909bd6](https://github.com/zerocluster/proxy/commit/1909bd6), [6a712e2](https://github.com/zerocluster/proxy/commit/6a712e2), [e0caf0e](https://github.com/zerocluster/proxy/commit/e0caf0e), [1397883](https://github.com/zerocluster/proxy/commit/1397883), [87edebe](https://github.com/zerocluster/proxy/commit/87edebe), [a7e9c5e](https://github.com/zerocluster/proxy/commit/a7e9c5e); 👬 zdm)
+
+Compare with the previous release: [v1.12.38...v1.12.39](https://github.com/zerocluster/proxy/compare/v1.12.38...v1.12.39)
+
 ### v1.12.38 (2026-05-19)
 
 **Other changes:**
