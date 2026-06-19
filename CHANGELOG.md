@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.12.40 (2026-06-19)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [8f93613](https://github.com/zerocluster/proxy/commit/8f93613), [0098507](https://github.com/zerocluster/proxy/commit/0098507), [23fe93f](https://github.com/zerocluster/proxy/commit/23fe93f), [17dc43c](https://github.com/zerocluster/proxy/commit/17dc43c), [a3e3816](https://github.com/zerocluster/proxy/commit/a3e3816), [671b7c9](https://github.com/zerocluster/proxy/commit/671b7c9), [00d9d4f](https://github.com/zerocluster/proxy/commit/00d9d4f), [ce92037](https://github.com/zerocluster/proxy/commit/ce92037), [0400520](https://github.com/zerocluster/proxy/commit/0400520), [b0342d7](https://github.com/zerocluster/proxy/commit/b0342d7), [5a3056f](https://github.com/zerocluster/proxy/commit/5a3056f), [d7f3a1d](https://github.com/zerocluster/proxy/commit/d7f3a1d), [183c528](https://github.com/zerocluster/proxy/commit/183c528), [55078c5](https://github.com/zerocluster/proxy/commit/55078c5), [fda5ebe](https://github.com/zerocluster/proxy/commit/fda5ebe), [b7f7644](https://github.com/zerocluster/proxy/commit/b7f7644), [b278da5](https://github.com/zerocluster/proxy/commit/b278da5), [008ad0e](https://github.com/zerocluster/proxy/commit/008ad0e); 👬 zdm)
+
+Compare with the previous release: [v1.12.39...v1.12.40](https://github.com/zerocluster/proxy/compare/v1.12.39...v1.12.40)
+
 ### v1.12.39 (2026-05-29)
 
 **Code refactoring:**
