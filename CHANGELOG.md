@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.12.44 (2026-06-24)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix nginx ssl option (● [3c3baa0](https://github.com/zerocluster/proxy/commit/3c3baa0); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [adaf630](https://github.com/zerocluster/proxy/commit/adaf630); 👬 zdm)
+
+Compare with the previous release: [v1.12.43...v1.12.44](https://github.com/zerocluster/proxy/compare/v1.12.43...v1.12.44)
+
 ### v1.12.43 (2026-06-23)
 
 **Other changes:**
