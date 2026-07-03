@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.12.47 (2026-07-03)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix md \_ escape (● [e090ddc](https://github.com/zerocluster/proxy/commit/e090ddc); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [e6a5b28](https://github.com/zerocluster/proxy/commit/e6a5b28), [9244d6d](https://github.com/zerocluster/proxy/commit/9244d6d), [1b60cb3](https://github.com/zerocluster/proxy/commit/1b60cb3), [178f2c5](https://github.com/zerocluster/proxy/commit/178f2c5), [77ab086](https://github.com/zerocluster/proxy/commit/77ab086), [e7bc16b](https://github.com/zerocluster/proxy/commit/e7bc16b), [e7a6ee1](https://github.com/zerocluster/proxy/commit/e7a6ee1), [fcb412a](https://github.com/zerocluster/proxy/commit/fcb412a), [6a5f82c](https://github.com/zerocluster/proxy/commit/6a5f82c), [2572fc2](https://github.com/zerocluster/proxy/commit/2572fc2), [ec24b11](https://github.com/zerocluster/proxy/commit/ec24b11); 👬 zdm)
+
+Compare with the previous release: [v1.12.46...v1.12.47](https://github.com/zerocluster/proxy/compare/v1.12.46...v1.12.47)
+
 ### v1.12.46 (2026-06-25)
 
 **Other changes:**
