@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.12.52 (2026-07-06)
+
+**Other changes:**
+
+- build(deps): bunp @corejslib/core@^8.0.0 (● [bc24bc3](https://github.com/zerocluster/proxy/commit/bc24bc3); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [2e01f62](https://github.com/zerocluster/proxy/commit/2e01f62); 👬 zdm)
+
+Compare with the previous release: [v1.12.51...v1.12.52](https://github.com/zerocluster/proxy/compare/v1.12.51...v1.12.52)
+
 ### v1.12.51 (2026-07-05)
 
 **Other changes:**
