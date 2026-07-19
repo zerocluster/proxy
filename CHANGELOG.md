@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.12.55 (2026-07-19)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix ip api (● [ae6a780](https://github.com/zerocluster/proxy/commit/ae6a780); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [59c5727](https://github.com/zerocluster/proxy/commit/59c5727), [5be40d9](https://github.com/zerocluster/proxy/commit/5be40d9), [53f4699](https://github.com/zerocluster/proxy/commit/53f4699), [3e65b8e](https://github.com/zerocluster/proxy/commit/3e65b8e), [dd0b165](https://github.com/zerocluster/proxy/commit/dd0b165), [3f1f0be](https://github.com/zerocluster/proxy/commit/3f1f0be); 👬 zdm)
+
+Compare with the previous release: [v1.12.54...v1.12.55](https://github.com/zerocluster/proxy/compare/v1.12.54...v1.12.55)
+
 ### v1.12.54 (2026-07-09)
 
 **Other changes:**
