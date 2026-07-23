@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.12.57 (2026-07-23)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix ip ranges api (● [4cdd551](https://github.com/zerocluster/proxy/commit/4cdd551); 👬 zdm)
+
+- \[PATCH] fix: fix ranges api (● [d07fb69](https://github.com/zerocluster/proxy/commit/d07fb69); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [ae6818b](https://github.com/zerocluster/proxy/commit/ae6818b), [687a295](https://github.com/zerocluster/proxy/commit/687a295), [43fcb21](https://github.com/zerocluster/proxy/commit/43fcb21); 👬 zdm)
+
+Compare with the previous release: [v1.12.56...v1.12.57](https://github.com/zerocluster/proxy/compare/v1.12.56...v1.12.57)
+
 ### v1.12.56 (2026-07-19)
 
 **Other changes:**
