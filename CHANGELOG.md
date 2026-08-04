@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.12.71 (2026-08-04)
+
+**Other changes:**
+
+- chore: rename ccli to zcli (● [9a3a1ed](https://github.com/zerocluster/proxy/commit/9a3a1ed), [1cb2114](https://github.com/zerocluster/proxy/commit/1cb2114), [6bd0a45](https://github.com/zerocluster/proxy/commit/6bd0a45); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [efc6d68](https://github.com/zerocluster/proxy/commit/efc6d68); 👬 zdm)
+
+Compare with the previous release: [v1.12.70...v1.12.71](https://github.com/zerocluster/proxy/compare/v1.12.70...v1.12.71)
+
 ### v1.12.70 (2026-08-04)
 
 **Other changes:**
