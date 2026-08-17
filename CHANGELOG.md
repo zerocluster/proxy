@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.12.73 (2026-08-17)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [ae293da](https://github.com/zerocluster/proxy/commit/ae293da); 👬 zdm)
+
+Compare with the previous release: [v1.12.72...v1.12.73](https://github.com/zerocluster/proxy/compare/v1.12.72...v1.12.73)
+
 ### v1.12.72 (2026-08-16)
 
 **Other changes:**
