@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.12.78 (2026-08-27)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [cafa528](https://github.com/zerocluster/proxy/commit/cafa528), [7e1d288](https://github.com/zerocluster/proxy/commit/7e1d288); 👬 zdm)
+
+Compare with the previous release: [v1.12.77...v1.12.78](https://github.com/zerocluster/proxy/compare/v1.12.77...v1.12.78)
+
 ### v1.12.77 (2026-08-26)
 
 **Other changes:**
