@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.12.79 (2026-08-30)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix shebang (● [dea0dab](https://github.com/zerocluster/proxy/commit/dea0dab); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [d5da2d4](https://github.com/zerocluster/proxy/commit/d5da2d4), [9aea43d](https://github.com/zerocluster/proxy/commit/9aea43d), [3442d51](https://github.com/zerocluster/proxy/commit/3442d51), [ddb5af6](https://github.com/zerocluster/proxy/commit/ddb5af6), [54447a4](https://github.com/zerocluster/proxy/commit/54447a4); 👬 zdm)
+
+Compare with the previous release: [v1.12.78...v1.12.79](https://github.com/zerocluster/proxy/compare/v1.12.78...v1.12.79)
+
 ### v1.12.78 (2026-08-27)
 
 **Other changes:**
