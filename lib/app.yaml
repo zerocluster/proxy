@@ -1,5 +1,5 @@
 dependencies:
-  - "@corejslib/core"
+  - "@corejslib/app"
 
 services:
   main:
