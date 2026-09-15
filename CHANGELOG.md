@@ -1,5 +1,15 @@
 # Changelog
 
+### v1.12.87 (2026-09-15)
+
+**Other changes:**
+
+- chore: migrate to @corejslib/app (● [d363668](https://github.com/zerocluster/proxy/commit/d363668); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [dbb8832](https://github.com/zerocluster/proxy/commit/dbb8832); 👬 zdm)
+
+Compare with the previous release: [v1.12.86...v1.12.87](https://github.com/zerocluster/proxy/compare/v1.12.86...v1.12.87)
+
 ### v1.12.86 (2026-09-15)
 
 **Other changes:**
