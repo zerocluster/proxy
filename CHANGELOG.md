@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.12.96 (2026-09-29)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [8c57bc1](https://github.com/zerocluster/proxy/commit/8c57bc1), [9807831](https://github.com/zerocluster/proxy/commit/9807831); 👬 zdm)
+
+Compare with the previous release: [v1.12.95...v1.12.96](https://github.com/zerocluster/proxy/compare/v1.12.95...v1.12.96)
+
 ### v1.12.95 (2026-09-26)
 
 **Other changes:**
@@ -850,7 +858,7 @@ Compare with the previous release: [v1.12.0](https://github.com/zerocluster/prox
 
 **Bug fixes:**
 
-- \[PATCH] fix: remove NPM\_TOKEN\_GITHUB (● [fc7c682](https://github.com/zerocluster/proxy/commit/fc7c682); 👬 zdm)
+- \[PATCH] fix: remove NPM_TOKEN_GITHUB (● [fc7c682](https://github.com/zerocluster/proxy/commit/fc7c682); 👬 zdm)
 
 **Other changes:**
 
@@ -1766,7 +1774,7 @@ Fixes:
 Fixes:
 
 - fix: deps
-- fix: docker depends\_on
+- fix: docker depends_on
 - fix: lint
 
 ### 1.10.43 (2024-07-30)
@@ -2369,7 +2377,7 @@ Fixes:
 
 Fixes:
 
-- fix: docker autobuild\_tags renamed to auto\_tags
+- fix: docker autobuild_tags renamed to auto_tags
 
 ### 1.6.11 (2021-09-12)
 
@@ -2678,7 +2686,7 @@ Changed:
 
 Changed:
 
-- MAXMIND\_SKIP\_DOWNLOAD;
+- MAXMIND_SKIP_DOWNLOAD;
 
 ### 1.1.0 (2021-03-08)
 
