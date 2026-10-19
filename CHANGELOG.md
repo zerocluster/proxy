@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.13.0 (2026-10-19)
+
+**New features:**
+
+- \[MINOR] feat: enable cluster support in app config (● [4793c67](https://github.com/zerocluster/proxy/commit/4793c67); 👬 zdm)
+
+Compare with the previous release: [v1.12.111...v1.13.0](https://github.com/zerocluster/proxy/compare/v1.12.111...v1.13.0)
+
 ### v1.12.111 (2026-10-19)
 
 **Other changes:**
