@@ -12,7 +12,4 @@ components:
   env:
     name: proxy
 
-  cluster:
-    enabled: true
-
 config: ~
