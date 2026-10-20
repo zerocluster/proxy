@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.13.3 (2026-10-20)
+
+**Other changes:**
+
+- chore: remove cluster configuration from app.yaml (● [a27a585](https://github.com/zerocluster/proxy/commit/a27a585); 👬 zdm)
+
+Compare with the previous release: [v1.13.2...v1.13.3](https://github.com/zerocluster/proxy/compare/v1.13.2...v1.13.3)
+
 ### v1.13.2 (2026-10-19)
 
 **Other changes:**
