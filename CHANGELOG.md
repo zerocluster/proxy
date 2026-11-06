@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.13.16 (2026-11-06)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [ffcf970](https://github.com/zerocluster/proxy/commit/ffcf970); 👬 zdm)
+
+Compare with the previous release: [v1.13.15...v1.13.16](https://github.com/zerocluster/proxy/compare/v1.13.15...v1.13.16)
+
 ### v1.13.15 (2026-11-06)
 
 **Other changes:**
