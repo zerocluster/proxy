@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.13.17 (2026-11-09)
+
+**Bug fixes:**
+
+- \[PATCH] fix: remove depends_on from compose file (● [f1bc270](https://github.com/zerocluster/proxy/commit/f1bc270); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [07cd484](https://github.com/zerocluster/proxy/commit/07cd484), [0e1da2f](https://github.com/zerocluster/proxy/commit/0e1da2f); 👬 zdm)
+
+Compare with the previous release: [v1.13.16...v1.13.17](https://github.com/zerocluster/proxy/compare/v1.13.16...v1.13.17)
+
 ### v1.13.16 (2026-11-06)
 
 **Other changes:**
