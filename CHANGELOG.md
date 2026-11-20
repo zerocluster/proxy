@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.13.30 (2026-11-20)
+
+**Bug fixes:**
+
+- \[PATCH] fix: register on nginx after app started (● [3740615](https://github.com/zerocluster/proxy/commit/3740615); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [e6d9a6d](https://github.com/zerocluster/proxy/commit/e6d9a6d), [9fb1e2f](https://github.com/zerocluster/proxy/commit/9fb1e2f); 👬 zdm)
+
+Compare with the previous release: [v1.13.29...v1.13.30](https://github.com/zerocluster/proxy/compare/v1.13.29...v1.13.30)
+
 ### v1.13.29 (2026-11-19)
 
 **Other changes:**
