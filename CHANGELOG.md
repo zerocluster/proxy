@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.13.32 (2026-11-21)
+
+**Code refactoring**:
+
+- \[PATCH] refactor: remove unused app configuration fields (● [9e60c8e](https://github.com/zerocluster/proxy/commit/9e60c8e); 👬 zdm)
+
+**Other changes**:
+
+- chore(deps): update locked dependencies (● [c2a529d](https://github.com/zerocluster/proxy/commit/c2a529d); 👬 zdm)
+
+Compare with the previous release: [v1.13.31...v1.13.32](https://github.com/zerocluster/proxy/compare/v1.13.31...v1.13.32)
+
 ### v1.13.31 (2026-11-21)
 
 **Other changes**:
