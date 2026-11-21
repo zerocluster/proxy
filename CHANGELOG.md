@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.13.33 (2026-11-21)
+
+**Bug fixes**:
+
+- \[PATCH] fix: remove empty config setting (● [f3f1767](https://github.com/zerocluster/proxy/commit/f3f1767); 👬 zdm)
+
+Compare with the previous release: [v1.13.32...v1.13.33](https://github.com/zerocluster/proxy/compare/v1.13.32...v1.13.33)
+
 ### v1.13.32 (2026-11-21)
 
 **Code refactoring**:
