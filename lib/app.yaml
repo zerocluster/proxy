@@ -11,5 +11,3 @@ defaultService: main
 components:
   env:
     name: proxy
-
-config: ~
