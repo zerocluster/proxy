@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.13.36 (2026-11-24)
+
+**Bug fixes**:
+
+- \[PATCH] fix: rename app run command to start (● [7603478](https://github.com/zerocluster/proxy/commit/7603478); 👬 zdm)
+
+**Other changes**:
+
+- chore(deps): update locked dependencies (● [0a14805](https://github.com/zerocluster/proxy/commit/0a14805), [bb24999](https://github.com/zerocluster/proxy/commit/bb24999); 👬 zdm)
+
+Compare with the previous release: [v1.13.35...v1.13.36](https://github.com/zerocluster/proxy/compare/v1.13.35...v1.13.36)
+
 ### v1.13.35 (2026-11-22)
 
 **Other changes**:
