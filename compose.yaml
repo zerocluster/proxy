@@ -9,7 +9,7 @@ services:
       placement:
         max_replicas_per_node: 1
 
-    command: run
+    command: start
 
     secrets:
       - { source: proxy_env.yaml, target: /var/local/package/env.yaml }
