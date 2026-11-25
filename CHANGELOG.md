@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.13.37 (2026-11-25)
+
+**Bug fixes**:
+
+- \[PATCH] fix: use start command in development script (● [1583c57](https://github.com/zerocluster/proxy/commit/1583c57); 👬 zdm)
+
+**Other changes**:
+
+- chore(deps): update locked dependencies (● [b320cee](https://github.com/zerocluster/proxy/commit/b320cee); 👬 zdm)
+
+Compare with the previous release: [v1.13.36...v1.13.37](https://github.com/zerocluster/proxy/compare/v1.13.36...v1.13.37)
+
 ### v1.13.36 (2026-11-24)
 
 **Bug fixes**:
