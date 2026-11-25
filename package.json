@@ -25,7 +25,7 @@
         "#resources/*": "./resources/*"
     },
     "scripts": {
-        "start": "node bin/main.js run --mode=development"
+        "start": "node bin/main.js start --mode=development"
     },
     "dependencies": {
         "@corejslib/app": "^1.0.0"
