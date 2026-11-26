@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.13.38 (2026-11-26)
+
+**Bug fixes**:
+
+- \[PATCH] fix: use the correct tls option for nginx tcp (● [0214dae](https://github.com/zerocluster/proxy/commit/0214dae); 👬 zdm)
+
+**Other changes**:
+
+- chore(deps): update locked dependencies (● [9df5044](https://github.com/zerocluster/proxy/commit/9df5044), [c20145d](https://github.com/zerocluster/proxy/commit/c20145d), [5ef818a](https://github.com/zerocluster/proxy/commit/5ef818a), [c9bfdb7](https://github.com/zerocluster/proxy/commit/c9bfdb7), [e8976a5](https://github.com/zerocluster/proxy/commit/e8976a5); 👬 zdm)
+
+Compare with the previous release: [v1.13.37...v1.13.38](https://github.com/zerocluster/proxy/compare/v1.13.37...v1.13.38)
+
 ### v1.13.37 (2026-11-25)
 
 **Bug fixes**:
