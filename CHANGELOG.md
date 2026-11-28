@@ -1,5 +1,17 @@
 # Changelog
 
+### v1.13.39 (2026-11-28)
+
+**Bug fixes**:
+
+- \[PATCH] fix: enable nginx proxy protocol v2 (● [d64c949](https://github.com/zerocluster/proxy/commit/d64c949); 👬 zdm)
+
+**Other changes**:
+
+- chore(deps): update locked dependencies (● [72c690b](https://github.com/zerocluster/proxy/commit/72c690b); 👬 zdm)
+
+Compare with the previous release: [v1.13.38...v1.13.39](https://github.com/zerocluster/proxy/compare/v1.13.38...v1.13.39)
+
 ### v1.13.38 (2026-11-26)
 
 **Bug fixes**:
